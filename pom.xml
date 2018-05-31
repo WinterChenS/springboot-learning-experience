@@ -16,6 +16,10 @@
         <module>springboot-dubbo-client</module>
         <!-- springboot mybatis 多数据源的使用 -->
         <module>spring-boot-mybatis-mutil-database</module>
+        <!-- admin监控 -->
+        <module>spring-boot-admin</module>
+        <!-- 监控的端点 -->
+        <module>spring-boot-actuator-client</module>
     </modules>
 
 </project>

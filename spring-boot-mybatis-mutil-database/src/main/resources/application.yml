@@ -13,7 +13,7 @@ spring:
           driver-class-name: com.mysql.jdbc.Driver
         slave:
           #基本属性--注意，这里为 【url】-- 使用 druid 作为数据库连接池
-          url: jdbc:mysql://127.0.0.1:3306/mytest?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+          url: jdbc:mysql://118.25.36.41:3306/mytest?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
           username: root
           password: root
           driver-class-name: com.mysql.jdbc.Driver

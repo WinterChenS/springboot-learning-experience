@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/spring-boot-dubbo-service/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-dubbo-client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-mutil-database/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-actuator-client/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
