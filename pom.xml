@@ -20,7 +20,7 @@
         <module>spring-boot-jdbctemplate</module>
         <!-- 使用springDataJpa访问数据库 -->
         <module>spring-boot-data-jpa</module>
-        
+
         <!-- dubbo 服务 -->
         <module>spring-boot-dubbo-service</module>
         <!-- dubbo 客户端 -->
