@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/spring-boot-mybatis-mutil-database/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-admin/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-actuator-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-config/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

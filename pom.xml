@@ -12,6 +12,8 @@
     <modules>
         <!-- 我的第一个springboot程序 -->
         <module>spring-boot-start</module>
+        <!-- springboot配置详解 -->
+        <module>spring-boot-config</module>
         <!-- dubbo 服务 -->
         <module>spring-boot-dubbo-service</module>
         <!-- dubbo 客户端 -->

@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/spring-boot-actuator-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-dubbo-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis-mutil-database" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-start" charset="UTF-8" />
