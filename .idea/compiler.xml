@@ -9,6 +9,7 @@
         <module name="spring-boot-actuator-client" />
         <module name="spring-boot-admin" />
         <module name="spring-boot-config" />
+        <module name="spring-boot-data-jpa" />
         <module name="spring-boot-dubbo-service" />
         <module name="spring-boot-jdbctemplate" />
         <module name="spring-boot-mybatis-mutil-database" />
@@ -23,6 +24,7 @@
       <module name="spring-boot-actuator-client" target="1.8" />
       <module name="spring-boot-admin" target="1.8" />
       <module name="spring-boot-config" target="1.8" />
+      <module name="spring-boot-data-jpa" target="1.8" />
       <module name="spring-boot-dubbo-service" target="1.8" />
       <module name="spring-boot-jdbctemplate" target="1.8" />
       <module name="spring-boot-mybatis-mutil-database" target="1.8" />
