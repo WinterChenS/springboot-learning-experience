@@ -10,6 +10,7 @@
         <module name="spring-boot-admin" />
         <module name="spring-boot-dubbo-service" />
         <module name="spring-boot-mybatis-mutil-database" />
+        <module name="spring-boot-start" />
         <module name="springboot-dubbo-client" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="spring-boot-admin" target="1.8" />
       <module name="spring-boot-dubbo-service" target="1.8" />
       <module name="spring-boot-mybatis-mutil-database" target="1.8" />
+      <module name="spring-boot-start" target="1.8" />
       <module name="springboot-dubbo" target="1.8" />
       <module name="springboot-dubbo-client" target="1.8" />
       <module name="springboot-learning-experience" target="1.5" />
