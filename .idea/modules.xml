@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" filepath="$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-config/spring-boot-config.iml" filepath="$PROJECT_DIR$/spring-boot-config/spring-boot-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-service/spring-boot-dubbo-service.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-service/spring-boot-dubbo-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbctemplate/spring-boot-jdbctemplate.iml" filepath="$PROJECT_DIR$/spring-boot-jdbctemplate/spring-boot-jdbctemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-mutil-database/spring-boot-mybatis-mutil-database.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-mutil-database/spring-boot-mybatis-mutil-database.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" filepath="$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" />

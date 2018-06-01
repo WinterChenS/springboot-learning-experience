@@ -14,6 +14,11 @@
         <module>spring-boot-start</module>
         <!-- springboot配置详解 -->
         <module>spring-boot-config</module>
+        <!-- 整合Thymeleaf模板 -->
+        <module>spring-boot-thymeleaf</module>
+        <!-- 使用JdbcTemplate访问数据库 -->
+        <module>spring-boot-jdbctemplate</module>
+
         <!-- dubbo 服务 -->
         <module>spring-boot-dubbo-service</module>
         <!-- dubbo 客户端 -->

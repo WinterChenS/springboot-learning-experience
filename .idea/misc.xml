@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/spring-boot-actuator-client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-config/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-jdbctemplate/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
