@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/spring-boot-thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-jdbctemplate/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-data-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

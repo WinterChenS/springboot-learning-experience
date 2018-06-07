@@ -20,6 +20,8 @@
         <module>spring-boot-jdbctemplate</module>
         <!-- 使用springDataJpa访问数据库 -->
         <module>spring-boot-data-jpa</module>
+        <!-- 使用Mybatis访问数据库 -->
+        <module>spring-boot-mybatis</module>
 
         <!-- dubbo 服务 -->
         <module>spring-boot-dubbo-service</module>

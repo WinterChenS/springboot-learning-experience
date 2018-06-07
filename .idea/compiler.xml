@@ -12,6 +12,7 @@
         <module name="spring-boot-data-jpa" />
         <module name="spring-boot-dubbo-service" />
         <module name="spring-boot-jdbctemplate" />
+        <module name="spring-boot-mybatis" />
         <module name="spring-boot-mybatis-mutil-database" />
         <module name="spring-boot-start" />
         <module name="spring-boot-thymeleaf" />
@@ -27,6 +28,7 @@
       <module name="spring-boot-data-jpa" target="1.8" />
       <module name="spring-boot-dubbo-service" target="1.8" />
       <module name="spring-boot-jdbctemplate" target="1.8" />
+      <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-mybatis-mutil-database" target="1.8" />
       <module name="spring-boot-start" target="1.8" />
       <module name="spring-boot-thymeleaf" target="1.8" />
