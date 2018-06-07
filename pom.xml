@@ -22,7 +22,8 @@
         <module>spring-boot-data-jpa</module>
         <!-- 使用Mybatis访问数据库 -->
         <module>spring-boot-mybatis</module>
-
+        <!-- Mybatis通用Mapper与分页插件的集成 -->
+        <module>spring-boot-mybatis-plugin</module>
         <!-- dubbo 服务 -->
         <module>spring-boot-dubbo-service</module>
         <!-- dubbo 客户端 -->

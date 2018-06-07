@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbctemplate/spring-boot-jdbctemplate.iml" filepath="$PROJECT_DIR$/spring-boot-jdbctemplate/spring-boot-jdbctemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-mutil-database/spring-boot-mybatis-mutil-database.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-mutil-database/spring-boot-mybatis-mutil-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-plugin/spring-boot-mybatis-plugin.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-plugin/spring-boot-mybatis-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" filepath="$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-client/springboot-dubbo-client.iml" filepath="$PROJECT_DIR$/springboot-dubbo-client/springboot-dubbo-client.iml" />

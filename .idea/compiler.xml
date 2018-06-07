@@ -14,6 +14,7 @@
         <module name="spring-boot-jdbctemplate" />
         <module name="spring-boot-mybatis" />
         <module name="spring-boot-mybatis-mutil-database" />
+        <module name="spring-boot-mybatis-plugin" />
         <module name="spring-boot-start" />
         <module name="spring-boot-thymeleaf" />
         <module name="springboot-dubbo-client" />
@@ -30,6 +31,7 @@
       <module name="spring-boot-jdbctemplate" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-mybatis-mutil-database" target="1.8" />
+      <module name="spring-boot-mybatis-plugin" target="1.8" />
       <module name="spring-boot-start" target="1.8" />
       <module name="spring-boot-thymeleaf" target="1.8" />
       <module name="springboot-dubbo" target="1.8" />
