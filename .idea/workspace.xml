@@ -2,15 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc1d6361-a0be-43ba-9ca6-1ded70710311" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/java/com/winterchen/config/RedisCacheAutoConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/java/com/winterchen/entity/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_25_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_25_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_25_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_25_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_25_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_25_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/domain/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/service/impl/UserServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-dubbo-client/.gitignore" afterPath="$PROJECT_DIR$/spring-boot-dubbo-client/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-dubbo-client/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/spring-boot-dubbo-client/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-dubbo-client/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/spring-boot-dubbo-client/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-dubbo-client/mvnw" afterPath="$PROJECT_DIR$/spring-boot-dubbo-client/mvnw" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-dubbo-client/mvnw.cmd" afterPath="$PROJECT_DIR$/spring-boot-dubbo-client/mvnw.cmd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-dubbo-client/pom.xml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-client/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-dubbo-client/src/main/java/com/winterchen/SpringbootDubboClientApplication.java" afterPath="$PROJECT_DIR$/spring-boot-dubbo-client/src/main/java/com/winterchen/SpringbootDubboClientApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-dubbo-client/src/main/java/com/winterchen/domain/User.java" afterPath="$PROJECT_DIR$/spring-boot-dubbo-client/src/main/java/com/winterchen/domain/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-dubbo-client/src/main/java/com/winterchen/dubbo/UserDubboConsumerService.java" afterPath="$PROJECT_DIR$/spring-boot-dubbo-client/src/main/java/com/winterchen/dubbo/UserDubboConsumerService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-dubbo-client/src/main/java/com/winterchen/dubbo/UserDubboService.java" afterPath="$PROJECT_DIR$/spring-boot-dubbo-client/src/main/java/com/winterchen/dubbo/UserDubboService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-dubbo-client/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/spring-boot-dubbo-client/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/springboot-dubbo-client/src/test/java/com/winterchen/SpringbootDubboClientApplicationTests.java" afterPath="$PROJECT_DIR$/spring-boot-dubbo-client/src/test/java/com/winterchen/SpringbootDubboClientApplicationTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
@@ -36,6 +70,8 @@
     <ignored path="$PROJECT_DIR$/spring-boot-mybatis/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-mybatis-plugin/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-lettuce-redis/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-dubbo-client/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-cache-redis/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,31 +91,94 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/resources/application.properties">
+      <file leaf-file-name="Proxy.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/common/bytecode/Proxy.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="300">
+              <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FailoverClusterInvoker.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/cluster/support/FailoverClusterInvoker.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-cache-redis/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-cache-redis/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/java/com/winterchen/entity/User.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <folding>
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisCacheAutoConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/java/com/winterchen/config/RedisCacheAutoConfiguration.java">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,11 +186,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringBootLettuceRedisApplicationTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-lettuce-redis/src/test/java/com/winterchen/SpringBootLettuceRedisApplicationTests.java">
+      <file leaf-file-name="SpringBootCacheRedisApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/SpringBootCacheRedisApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="75">
+              <caret line="7" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringBootCacheRedisApplicationTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-cache-redis/src/test/java/com/winterchen/SpringBootCacheRedisApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,6 +220,8 @@
     <findStrings>
       <find>initial-size</find>
       <find>env</find>
+      <find>Reference</find>
+      <find>invoker</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,14 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-admin/src/main/resources/application-prod.properties" />
-        <option value="$PROJECT_DIR$/spring-boot-start/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-start/src/main/java/com/winterchen/SpringBootStartApplication.java" />
-        <option value="$PROJECT_DIR$/spring-boot-config/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-config/src/main/java/com/winterchen/properties/MyProperties1.java" />
-        <option value="$PROJECT_DIR$/spring-boot-config/src/main/resources/my2.properties" />
-        <option value="$PROJECT_DIR$/spring-boot-config/src/main/java/com/winterchen/properties/MyProperties2.java" />
-        <option value="$PROJECT_DIR$/spring-boot-config/src/main/java/com/winterchen/controller/PropertiesController.java" />
         <option value="$PROJECT_DIR$/spring-boot-config/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/spring-boot-config/src/main/resources/application-test.properties" />
         <option value="$PROJECT_DIR$/spring-boot-config/src/main/resources/application-prod.properties" />
@@ -168,13 +271,21 @@
         <option value="$PROJECT_DIR$/spring-boot-mybatis-plugin/src/main/java/com/winterchen/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-plugin/src/main/java/com/winterchen/entity/User.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-plugin/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-lettuce-redis/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/java/com/winterchen/User.java" />
         <option value="$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/java/com/winterchen/config/RedisCacheAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/spring-boot-lettuce-redis/src/test/java/com/winterchen/SpringBootLettuceRedisApplicationTests.java" />
         <option value="$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/java/com/winterchen/entity/User.java" />
+        <option value="$PROJECT_DIR$/spring-boot-dubbo-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-cache-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-cache-redis/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/service/UserService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/domain/User.java" />
+        <option value="$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/SpringBootCacheRedisApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-cache-redis/src/test/java/com/winterchen/SpringBootCacheRedisApplicationTests.java" />
+        <option value="$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/service/impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -207,8 +318,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,7 +342,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-mybatis-plugin" />
+              <option name="myItemId" value="spring-boot-cache-redis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,7 +356,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-mybatis-plugin" />
+              <option name="myItemId" value="spring-boot-cache-redis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -275,69 +386,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-mybatis-plugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot-learning-experience" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot-learning-experience" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-lettuce-redis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot-learning-experience" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot-learning-experience" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-lettuce-redis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="winterchen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot-learning-experience" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot-learning-experience" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-lettuce-redis" />
+              <option name="myItemId" value="spring-boot-cache-redis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -348,10 +397,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -363,7 +408,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-lettuce-redis" />
+              <option name="myItemId" value="spring-boot-cache-redis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -393,7 +438,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-boot-lettuce-redis" />
+              <option name="myItemId" value="spring-boot-cache-redis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -413,7 +458,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-learning-experience" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springboot-learning-experience" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-boot-cache-redis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="winterchen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,6 +510,9 @@
     <property name="FullScreen" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -448,53 +534,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringBootLettuceRedisApplicationTests.get">
-    <configuration default="false" name="SpringBootDataJpaApplicationTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.winterchen.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-boot-data-jpa" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.winterchen" />
-      <option name="MAIN_CLASS_NAME" value="com.winterchen.SpringBootDataJpaApplicationTests" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpringBootStartApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.winterchen.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.winterchen.SpringBootStartApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="spring-boot-start" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SpringBootCacheRedisApplicationTests.get">
     <configuration default="false" name="SpringBootMybatisApplicationTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -559,6 +599,52 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.winterchen" />
       <option name="MAIN_CLASS_NAME" value="com.winterchen.SpringBootLettuceRedisApplicationTests" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpringbootDubboClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.winterchen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.winterchen.SpringbootDubboClientApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring-boot-dubbo-client" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpringBootCacheRedisApplicationTests.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.winterchen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-boot-cache-redis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.winterchen" />
+      <option name="MAIN_CLASS_NAME" value="com.winterchen.SpringBootCacheRedisApplicationTests" />
       <option name="METHOD_NAME" value="get" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1094,7 +1180,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="21">
+    <configuration default="false" name="SpringBootCacheRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.winterchen.SpringBootCacheRedisApplication" />
+      <module name="spring-boot-cache-redis" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="22">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringbootDubboApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ModuleAuthApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ModuleUserApplication" />
@@ -1108,22 +1201,23 @@
       <item index="10" class="java.lang.String" itemvalue="Spring Boot.SpringBootDataJpaApplication" />
       <item index="11" class="java.lang.String" itemvalue="Spring Boot.SpringBootJdbctemplateApplication" />
       <item index="12" class="java.lang.String" itemvalue="Spring Boot.SpringBootConfigApplication" />
-      <item index="13" class="java.lang.String" itemvalue="JUnit.SpringBootDataJpaApplicationTests.test1" />
-      <item index="14" class="java.lang.String" itemvalue="Application.SpringBootStartApplication" />
-      <item index="15" class="java.lang.String" itemvalue="Spring Boot.SpringBootMybatisApplication" />
+      <item index="13" class="java.lang.String" itemvalue="Spring Boot.SpringBootMybatisApplication" />
+      <item index="14" class="java.lang.String" itemvalue="Spring Boot.SpringBootMybatisPluginApplication" />
+      <item index="15" class="java.lang.String" itemvalue="Spring Boot.SpringBootLettuceRedisApplication" />
       <item index="16" class="java.lang.String" itemvalue="JUnit.SpringBootMybatisApplicationTests.test1" />
-      <item index="17" class="java.lang.String" itemvalue="Spring Boot.SpringBootMybatisPluginApplication" />
-      <item index="18" class="java.lang.String" itemvalue="JUnit.SpringBootMybatisPluginApplicationTests.test1" />
-      <item index="19" class="java.lang.String" itemvalue="Spring Boot.SpringBootLettuceRedisApplication" />
-      <item index="20" class="java.lang.String" itemvalue="JUnit.SpringBootLettuceRedisApplicationTests.get" />
+      <item index="17" class="java.lang.String" itemvalue="JUnit.SpringBootMybatisPluginApplicationTests.test1" />
+      <item index="18" class="java.lang.String" itemvalue="JUnit.SpringBootLettuceRedisApplicationTests.get" />
+      <item index="19" class="java.lang.String" itemvalue="Application.SpringbootDubboClientApplication" />
+      <item index="20" class="java.lang.String" itemvalue="Spring Boot.SpringBootCacheRedisApplication" />
+      <item index="21" class="java.lang.String" itemvalue="JUnit.SpringBootCacheRedisApplicationTests.get" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SpringBootLettuceRedisApplicationTests.get" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SpringBootMybatisPluginApplicationTests.test1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringBootMybatisApplicationTests.test1" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SpringBootStartApplication" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SpringBootDataJpaApplicationTests.test1" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SpringBootCacheRedisApplicationTests.get" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SpringbootDubboClientApplication" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringBootLettuceRedisApplicationTests.get" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SpringBootMybatisPluginApplicationTests.test1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SpringBootMybatisApplicationTests.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -1146,7 +1240,10 @@
       <workItem from="1527768172161" duration="865000" />
       <workItem from="1527822203638" duration="9744000" />
       <workItem from="1528280363081" duration="5373000" />
-      <workItem from="1528366503083" duration="4968000" />
+      <workItem from="1528366503083" duration="5608000" />
+      <workItem from="1528965017866" duration="3674000" />
+      <workItem from="1528972183765" duration="531000" />
+      <workItem from="1529375507330" duration="1559000" />
     </task>
     <task id="LOCAL-00001" summary="添加springboot-actuator和springboot admin">
       <created>1527756716437</created>
@@ -1218,12 +1315,19 @@
       <option name="project" value="LOCAL" />
       <updated>1528370635355</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="第九篇：整合Lettuce Redis">
+      <created>1528371960754</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528371960754</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringBootJdbctemplateApplicationTests_test1 - 2018.06.01 at 14h 13m 26s.xml">
-      <configuration name="SpringBootJdbctemplateApplicationTests.test1" configurationId="JUnit" />
+    <history-entry file="SpringBootCacheRedisApplicationTests_get - 2018.06.19 at 11h 21m 11s.xml">
+      <configuration name="SpringBootCacheRedisApplicationTests.get" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SpringBootJdbctemplateApplicationTests_test1 - 2018.06.01 at 14h 13m 51s.xml">
       <configuration name="SpringBootJdbctemplateApplicationTests.test1" configurationId="JUnit" />
@@ -1254,7 +1358,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47154000" />
+    <option name="totallyTimeSpent" value="53558000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1266,34 +1370,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35306123" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3265306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36691087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21794872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1317,7 +1421,8 @@
     <MESSAGE value="第五篇：使用JdbcTemplate访问数据库" />
     <MESSAGE value="第七篇：整合Mybatis" />
     <MESSAGE value="第八篇：通用Mapper与分页插件的集成" />
-    <option name="LAST_COMMIT_MESSAGE" value="第八篇：通用Mapper与分页插件的集成" />
+    <MESSAGE value="第九篇：整合Lettuce Redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="第九篇：整合Lettuce Redis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1334,8 +1439,20 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/proxy/InvokerInvocationHandler.class</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/proxy/javassist/JavassistProxyFactory.class</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1344,74 +1461,189 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-jdbctemplate/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/java/com/winterchen/config/RedisCacheAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="195">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-data-jpa/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-plugin/src/test/java/com/winterchen/SpringBootMybatisPluginApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <caret line="2" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-start/src/test/java/com/winterchen/SpringBootStartApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/java/com/winterchen/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-lettuce-redis/src/test/java/com/winterchen/SpringBootLettuceRedisApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="56" selection-end-column="21" />
+          <folding>
+            <marker date="1528282509018" expanded="true" signature="1647:1766" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/RpcInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-service/src/main/java/com/winterchen/SpringBootDubboServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#259#260#0" expanded="false" />
+            <element signature="e#334#335#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-start/src/main/java/com/winterchen/SpringBootStartApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-dubbo-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="42" column="21" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="42" selection-end-column="21" />
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-dubbo-client/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/validation/filter/ValidationFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="24">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-dubbo-client/src/main/java/com/winterchen/dubbo/UserDubboService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/config/ApplicationConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/config/ServiceConfig.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/listener/InvokerListenerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/config/RegistryConfig.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/listener/ExporterListenerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/listener/DeprecatedInvokerListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/listener/ListenerInvokerWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/com/sun/corba/se/impl/presentation/rmi/StubInvocationHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="158" column="27" lean-forward="false" selection-start-line="158" selection-start-column="27" selection-end-line="158" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/com/sun/corba/se/spi/orbutil/proxy/CompositeInvocationHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-307">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/cluster/support/wrapper/MockClusterInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/registry/integration/RegistryDirectory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8250">
+          <caret line="592" column="0" lean-forward="false" selection-start-line="592" selection-start-column="0" selection-end-line="592" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/cluster/router/MockInvokersSelector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/cluster/directory/AbstractDirectory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/common/extension/ExtensionLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/config/ReferenceConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6720">
+          <caret line="513" column="11" lean-forward="false" selection-start-line="513" selection-start-column="4" selection-end-line="513" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/cache/filter/CacheFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/config/annotation/Reference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1422,376 +1654,323 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-service/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/config/support/Parameter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="56" selection-end-column="21" />
-          <folding>
-            <marker date="1528282509018" expanded="true" signature="1647:1766" ph="..." />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-service/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/config/ServiceConfig.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="41" />
+        <state relative-caret-position="-9597">
+          <caret line="41" column="114" lean-forward="false" selection-start-line="41" selection-start-column="102" selection-end-line="41" selection-end-column="114" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-dubbo-client/src/main/java/com/winterchen/SpringbootDubboClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-service/src/main/java/com/winterchen/dubbo/UserDubboService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-service/src/main/java/com/winterchen/dubbo/impl/UserDubboServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-service/src/main/java/com/winterchen/SpringBootDubboServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-dubbo-client/src/main/java/com/winterchen/dubbo/UserDubboConsumerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-actuator-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/target/admin-server.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-actuator-client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-actuator-client/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/java/com/winterchen/SpringBootAdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#808#809#0" expanded="false" />
-            <element signature="e#876#877#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-actuator-client/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="65" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-mutil-database/src/main/java/com/winterchen/config/DatabaseContextHolder.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/monitor/dubbo/DubboMonitor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#293#294#0" expanded="false" />
-            <element signature="e#332#333#0" expanded="false" />
-            <element signature="e#384#385#0" expanded="false" />
-            <element signature="e#426#427#0" expanded="false" />
-          </folding>
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-mutil-database/src/main/java/com/winterchen/config/DatabaseType.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/registry/zookeeper/ZookeeperRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-891">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/InvokerListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#188#189#0" expanded="false" />
-            <element signature="e#220#221#0" expanded="false" />
-            <element signature="e#277#278#0" expanded="false" />
-            <element signature="e#304#305#0" expanded="false" />
-            <element signature="e#344#345#0" expanded="false" />
-            <element signature="e#376#377#0" expanded="false" />
-          </folding>
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-mutil-database/src/main/java/com/winterchen/config/DataSourceAspect.java">
+    <entry file="uml://JAVA/com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker</OriginalElement>
+          <nodes>
+            <node x="" y="">com.alibaba.dubbo.rpc.cluster.support.AvailableClusterInvoker</node>
+            <node x="" y="">com.alibaba.dubbo.rpc.Invoker</node>
+            <node x="" y="">com.alibaba.dubbo.rpc.cluster.support.ForkingClusterInvoker</node>
+            <node x="" y="">com.alibaba.dubbo.rpc.cluster.support.FailsafeClusterInvoker</node>
+            <node x="" y="">com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker</node>
+            <node x="" y="">com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker</node>
+            <node x="" y="">com.alibaba.dubbo.common.Node</node>
+            <node x="" y="">com.alibaba.dubbo.rpc.cluster.support.FailbackClusterInvoker</node>
+            <node x="" y="">com.alibaba.dubbo.rpc.cluster.support.FailfastClusterInvoker</node>
+            <node x="" y="">com.alibaba.dubbo.rpc.cluster.support.BroadcastClusterInvoker</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="719.0" y="54.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-client/src/main/java/com/winterchen/dubbo/UserDubboService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-client/src/main/java/com/winterchen/SpringbootDubboClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/proxy/InvokerInvocationHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/cluster/support/AbstractClusterInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2490">
+          <caret line="190" column="24" lean-forward="false" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo-client/src/main/java/com/winterchen/dubbo/UserDubboConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-mutil-database/src/main/java/com/winterchen/config/DataSourceConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/ProxyFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="145" column="22" lean-forward="false" selection-start-line="145" selection-start-column="22" selection-end-line="145" selection-end-column="64" />
+        <state relative-caret-position="105">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/winterchen/SpringBootMybatisApplicationTests.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/proxy/AbstractProxyFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-plugin/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/proxy/javassist/JavassistProxyFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="35" selection-end-column="25" />
+        <state relative-caret-position="165">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/winterchen/SpringBootMybatisApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/common/bytecode/Proxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/rpc/cluster/support/FailoverClusterInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-cache-redis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <marker date="1528368059369" expanded="true" signature="280:356" ph="INSERT INTO `t_user`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/winterchen/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-plugin/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1528369974501" expanded="true" signature="277:333" ph="SELECT count... t_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/winterchen/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="36" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-plugin/src/main/java/com/winterchen/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-plugin/src/main/java/com/winterchen/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-plugin/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        <state relative-caret-position="510">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="645">
+          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-lettuce-redis/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-cache-redis/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="225">
+          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/java/com/winterchen/config/RedisCacheAutoConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-plugin/src/test/java/com/winterchen/SpringBootMybatisPluginApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-cache-redis/src/main/java/com/winterchen/SpringBootCacheRedisApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="75">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/spring-boot-cache-redis/src/test/java/com/winterchen/SpringBootCacheRedisApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="375">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/java/com/winterchen/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-lettuce-redis/src/test/java/com/winterchen/SpringBootLettuceRedisApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring-boot-cache-redis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

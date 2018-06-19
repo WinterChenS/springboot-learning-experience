@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-boot-actuator-client/spring-boot-actuator-client.iml" filepath="$PROJECT_DIR$/spring-boot-actuator-client/spring-boot-actuator-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" filepath="$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-cache-redis/spring-boot-cache-redis.iml" filepath="$PROJECT_DIR$/spring-boot-cache-redis/spring-boot-cache-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-config/spring-boot-config.iml" filepath="$PROJECT_DIR$/spring-boot-config/spring-boot-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-data-jpa/spring-boot-data-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-data-jpa/spring-boot-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-client/spring-boot-dubbo-client.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-client/spring-boot-dubbo-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-service/spring-boot-dubbo-service.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-service/spring-boot-dubbo-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbctemplate/spring-boot-jdbctemplate.iml" filepath="$PROJECT_DIR$/spring-boot-jdbctemplate/spring-boot-jdbctemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-lettuce-redis/spring-boot-lettuce-redis.iml" filepath="$PROJECT_DIR$/spring-boot-lettuce-redis/spring-boot-lettuce-redis.iml" />
@@ -14,7 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-plugin/spring-boot-mybatis-plugin.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-plugin/spring-boot-mybatis-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" filepath="$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-client/springboot-dubbo-client.iml" filepath="$PROJECT_DIR$/springboot-dubbo-client/springboot-dubbo-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-client/springboot-dubbo-client.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-client/springboot-dubbo-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-learning-experience.iml" filepath="$PROJECT_DIR$/springboot-learning-experience.iml" />
     </modules>
   </component>

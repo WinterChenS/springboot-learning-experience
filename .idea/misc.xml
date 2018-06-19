@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-lettuce-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-cache-redis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -29,21 +30,5 @@
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

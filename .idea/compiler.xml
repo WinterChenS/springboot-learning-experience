@@ -8,8 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-actuator-client" />
         <module name="spring-boot-admin" />
+        <module name="spring-boot-cache-redis" />
         <module name="spring-boot-config" />
         <module name="spring-boot-data-jpa" />
+        <module name="spring-boot-dubbo-client" />
         <module name="spring-boot-dubbo-service" />
         <module name="spring-boot-jdbctemplate" />
         <module name="spring-boot-lettuce-redis" />
@@ -26,8 +28,10 @@
       <module name="module-user" target="1.8" />
       <module name="spring-boot-actuator-client" target="1.8" />
       <module name="spring-boot-admin" target="1.8" />
+      <module name="spring-boot-cache-redis" target="1.8" />
       <module name="spring-boot-config" target="1.8" />
       <module name="spring-boot-data-jpa" target="1.8" />
+      <module name="spring-boot-dubbo-client" target="1.8" />
       <module name="spring-boot-dubbo-service" target="1.8" />
       <module name="spring-boot-jdbctemplate" target="1.8" />
       <module name="spring-boot-lettuce-redis" target="1.8" />

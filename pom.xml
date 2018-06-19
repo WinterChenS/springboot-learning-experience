@@ -26,11 +26,13 @@
         <module>spring-boot-mybatis-plugin</module>
         <!-- 整合Lettuce Redis -->
         <module>spring-boot-lettuce-redis</module>
+        <!-- cache集成redis -->
+        <module>spring-boot-cache-redis</module>
 
         <!-- dubbo 服务 -->
         <module>spring-boot-dubbo-service</module>
         <!-- dubbo 客户端 -->
-        <module>springboot-dubbo-client</module>
+        <module>spring-boot-dubbo-client</module>
         <!-- springboot mybatis 多数据源的使用 -->
         <module>spring-boot-mybatis-mutil-database</module>
         <!-- admin监控 -->
