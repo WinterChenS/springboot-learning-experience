@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/spring-boot-mybatis-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-lettuce-redis/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-cache-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-rabbit-amqp/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

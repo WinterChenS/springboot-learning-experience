@@ -30,7 +30,8 @@
         <module>spring-boot-cache-redis</module>
         <!-- 集成swagger -->
         <module>spring-boot-swagger</module>
-
+        <!-- 集成rabbit消息中间件 -->
+        <module>spring-boot-rabbit-amqp</module>
 
         <!-- dubbo 服务 -->
         <module>spring-boot-dubbo-service</module>

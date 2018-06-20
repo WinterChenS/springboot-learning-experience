@@ -18,6 +18,7 @@
         <module name="spring-boot-mybatis" />
         <module name="spring-boot-mybatis-mutil-database" />
         <module name="spring-boot-mybatis-plugin" />
+        <module name="spring-boot-rabbit-amqp" />
         <module name="spring-boot-start" />
         <module name="spring-boot-swagger" />
         <module name="spring-boot-thymeleaf" />
@@ -39,6 +40,7 @@
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-mybatis-mutil-database" target="1.8" />
       <module name="spring-boot-mybatis-plugin" target="1.8" />
+      <module name="spring-boot-rabbit-amqp" target="1.8" />
       <module name="spring-boot-start" target="1.8" />
       <module name="spring-boot-swagger" target="1.8" />
       <module name="spring-boot-thymeleaf" target="1.8" />
