@@ -28,6 +28,9 @@
         <module>spring-boot-lettuce-redis</module>
         <!-- cache集成redis -->
         <module>spring-boot-cache-redis</module>
+        <!-- 集成swagger -->
+        <module>spring-boot-swagger</module>
+
 
         <!-- dubbo 服务 -->
         <module>spring-boot-dubbo-service</module>
