@@ -14,6 +14,9 @@
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis-mutil-database" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis-plugin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-rabbit-amqp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rabbitmq-delay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rest-template" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-start" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-swagger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-thymeleaf" charset="UTF-8" />

@@ -18,6 +18,8 @@
         <option value="$PROJECT_DIR$/spring-boot-lettuce-redis/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-cache-redis/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-rabbit-amqp/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-rest-template/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-rabbitmq-delay/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

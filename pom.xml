@@ -32,7 +32,13 @@
         <module>spring-boot-swagger</module>
         <!-- 集成rabbit消息中间件 -->
         <module>spring-boot-rabbit-amqp</module>
+        <!-- RabbitMQ 延迟队列 -->
+        <module>spring-boot-rabbitmq-delay</module>
 
+        <!-- RestTemplate -->
+        <module>spring-boot-rest-template</module>
+        <!-- springboot-rabbitmq各种机制示例 -->
+        <module>spring-boot-rabbitmq</module>
         <!-- dubbo 服务 -->
         <module>spring-boot-dubbo-service</module>
         <!-- dubbo 客户端 -->

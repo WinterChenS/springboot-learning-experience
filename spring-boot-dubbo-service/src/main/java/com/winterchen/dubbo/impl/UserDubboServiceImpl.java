@@ -8,7 +8,7 @@ import com.winterchen.dubbo.UserDubboService;
  * dubbo 服务
  * Created by Donghua.Chen on 2018/5/29.
  */
-@Service
+@Service(version = "1.0.0")
 public class UserDubboServiceImpl implements UserDubboService {
 
     @Override
