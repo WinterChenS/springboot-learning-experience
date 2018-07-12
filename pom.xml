@@ -34,6 +34,8 @@
         <module>spring-boot-rabbit-amqp</module>
         <!-- RabbitMQ 延迟队列 -->
         <module>spring-boot-rabbitmq-delay</module>
+        <!--  强大的 actuator 服务监控与管理 -->
+        <module>spring-boot-actuator</module>
 
         <!-- RestTemplate -->
         <module>spring-boot-rest-template</module>

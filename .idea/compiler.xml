@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-actuator" />
         <module name="spring-boot-actuator-client" />
         <module name="spring-boot-admin" />
         <module name="spring-boot-cache-redis" />
@@ -32,6 +33,7 @@
     <bytecodeTargetLevel>
       <module name="module-auth" target="1.8" />
       <module name="module-user" target="1.8" />
+      <module name="spring-boot-actuator" target="1.8" />
       <module name="spring-boot-actuator-client" target="1.8" />
       <module name="spring-boot-admin" target="1.8" />
       <module name="spring-boot-cache-redis" target="1.8" />
