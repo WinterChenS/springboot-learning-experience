@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator.iml" filepath="$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-actuator-admin/spring-boot-actuator-admin.iml" filepath="$PROJECT_DIR$/spring-boot-actuator-admin/spring-boot-actuator-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-actuator-client/spring-boot-actuator-client.iml" filepath="$PROJECT_DIR$/spring-boot-actuator-client/spring-boot-actuator-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" filepath="$PROJECT_DIR$/spring-boot-admin/spring-boot-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-cache-redis/spring-boot-cache-redis.iml" filepath="$PROJECT_DIR$/spring-boot-cache-redis/spring-boot-cache-redis.iml" />

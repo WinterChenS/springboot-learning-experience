@@ -36,6 +36,9 @@
         <module>spring-boot-rabbitmq-delay</module>
         <!--  强大的 actuator 服务监控与管理 -->
         <module>spring-boot-actuator</module>
+        <!-- actuator与spring-boot-admin -->
+        <module>spring-boot-actuator-admin</module>
+
 
         <!-- RestTemplate -->
         <module>spring-boot-rest-template</module>

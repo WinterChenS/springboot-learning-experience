@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/spring-boot-actuator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-actuator-admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-actuator-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-cache-redis" charset="UTF-8" />
