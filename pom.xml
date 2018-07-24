@@ -42,6 +42,8 @@
         <module>spring-boot-task</module>
         <!-- 文件上传 -->
         <module>spring-boot-file-upload</module>
+        <!-- 轻松搞定全局异常 -->
+        <module>spring-boot-exception</module>
 
         <!-- RestTemplate -->
         <module>spring-boot-rest-template</module>
