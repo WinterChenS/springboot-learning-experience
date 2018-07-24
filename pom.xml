@@ -38,7 +38,10 @@
         <module>spring-boot-actuator</module>
         <!-- actuator与spring-boot-admin -->
         <module>spring-boot-actuator-admin</module>
-
+        <!-- 定时任务 -->
+        <module>spring-boot-task</module>
+        <!-- 文件上传 -->
+        <module>spring-boot-file-upload</module>
 
         <!-- RestTemplate -->
         <module>spring-boot-rest-template</module>
