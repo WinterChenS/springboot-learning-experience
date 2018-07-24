@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/spring-boot-rabbitmq-delay/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-actuator/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-actuator-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-task/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

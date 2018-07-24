@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rest-template/spring-boot-rest-template.iml" filepath="$PROJECT_DIR$/spring-boot-rest-template/spring-boot-rest-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" filepath="$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-swagger/spring-boot-swagger.iml" filepath="$PROJECT_DIR$/spring-boot-swagger/spring-boot-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-task/spring-boot-task.iml" filepath="$PROJECT_DIR$/spring-boot-task/spring-boot-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-learning-experience.iml" filepath="$PROJECT_DIR$/springboot-learning-experience.iml" />
     </modules>
