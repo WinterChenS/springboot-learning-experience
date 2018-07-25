@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/spring-boot-actuator-admin/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-task/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-validation1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-hikaricp/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

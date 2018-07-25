@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbctemplate/spring-boot-jdbctemplate.iml" filepath="$PROJECT_DIR$/spring-boot-jdbctemplate/spring-boot-jdbctemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-lettuce-redis/spring-boot-lettuce-redis.iml" filepath="$PROJECT_DIR$/spring-boot-lettuce-redis/spring-boot-lettuce-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-hikaricp/spring-boot-mybatis-hikaricp.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-hikaricp/spring-boot-mybatis-hikaricp.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-mutil-database/spring-boot-mybatis-mutil-database.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-mutil-database/spring-boot-mybatis-mutil-database.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-plugin/spring-boot-mybatis-plugin.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-plugin/spring-boot-mybatis-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rabbit-amqp/spring-boot-rabbit-amqp.iml" filepath="$PROJECT_DIR$/spring-boot-rabbit-amqp/spring-boot-rabbit-amqp.iml" />

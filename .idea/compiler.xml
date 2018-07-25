@@ -20,6 +20,7 @@
         <module name="spring-boot-jdbctemplate" />
         <module name="spring-boot-lettuce-redis" />
         <module name="spring-boot-mybatis" />
+        <module name="spring-boot-mybatis-hikaricp" />
         <module name="spring-boot-mybatis-mutil-database" />
         <module name="spring-boot-mybatis-plugin" />
         <module name="spring-boot-rabbit-amqp" />
@@ -52,6 +53,7 @@
       <module name="spring-boot-jdbctemplate" target="1.8" />
       <module name="spring-boot-lettuce-redis" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
+      <module name="spring-boot-mybatis-hikaricp" target="1.8" />
       <module name="spring-boot-mybatis-mutil-database" target="1.8" />
       <module name="spring-boot-mybatis-plugin" target="1.8" />
       <module name="spring-boot-rabbit-amqp" target="1.8" />

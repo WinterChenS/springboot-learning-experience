@@ -47,6 +47,9 @@
         <!-- 轻松搞定数据验证 -->
         <module>spring-boot-validation1</module>
 
+
+        <!-- springboot 整合 mybatis 并使用HikariCP作为数据库连接池-->
+        <module>spring-boot-mybatis-hikaricp</module>
         <!-- RestTemplate -->
         <module>spring-boot-rest-template</module>
         <!-- springboot-rabbitmq各种机制示例 -->
