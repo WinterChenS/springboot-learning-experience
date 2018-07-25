@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-swagger/spring-boot-swagger.iml" filepath="$PROJECT_DIR$/spring-boot-swagger/spring-boot-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-task/spring-boot-task.iml" filepath="$PROJECT_DIR$/spring-boot-task/spring-boot-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-validation1/spring-boot-validation1.iml" filepath="$PROJECT_DIR$/spring-boot-validation1/spring-boot-validation1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-learning-experience.iml" filepath="$PROJECT_DIR$/springboot-learning-experience.iml" />
     </modules>
   </component>

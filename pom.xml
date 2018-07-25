@@ -44,6 +44,8 @@
         <module>spring-boot-file-upload</module>
         <!-- 轻松搞定全局异常 -->
         <module>spring-boot-exception</module>
+        <!-- 轻松搞定数据验证 -->
+        <module>spring-boot-validation1</module>
 
         <!-- RestTemplate -->
         <module>spring-boot-rest-template</module>
