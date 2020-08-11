@@ -43,7 +43,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.46</version>
+			<version>8.0.16</version>
 		</dependency>
 		<!-- mybatis一定要使用starter，不然无法自动配置和注入 -->
 		<dependency>
