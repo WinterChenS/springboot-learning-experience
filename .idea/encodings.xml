@@ -3,29 +3,57 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/spring-boot-actuator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-actuator-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-actuator-admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-actuator-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-actuator-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-actuator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-cache-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-cache-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-data-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-data-jpa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-dubbo-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-dubbo-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-dubbo-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-dubbo-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-elasticsearch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-exception" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-exception/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-file-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-file-upload/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-jdbctemplate" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-jdbctemplate/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-lettuce-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-lettuce-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-mongodb/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis-hikaricp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-mybatis-hikaricp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis-mutil-database" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-mybatis-mutil-database/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mybatis-plugin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-mybatis-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-rabbit-amqp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rabbit-amqp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-rabbitmq-delay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rabbitmq-delay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rabbitmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-rest-template" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rest-template/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-start" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-start/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-swagger/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-task" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-task/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-thymeleaf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-thymeleaf/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-validation1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-validation1/src/main/java" charset="UTF-8" />
   </component>
 </project>

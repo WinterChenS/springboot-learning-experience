@@ -6,34 +6,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-actuator" />
-        <module name="spring-boot-actuator-admin" />
-        <module name="spring-boot-actuator-client" />
-        <module name="spring-boot-admin" />
-        <module name="spring-boot-cache-redis" />
-        <module name="spring-boot-config" />
-        <module name="spring-boot-data-jpa" />
-        <module name="spring-boot-dubbo-client" />
-        <module name="spring-boot-dubbo-service" />
-        <module name="spring-boot-exception" />
         <module name="spring-boot-file-upload" />
-        <module name="spring-boot-jdbctemplate" />
-        <module name="spring-boot-lettuce-redis" />
-        <module name="spring-boot-mybatis" />
+        <module name="spring-boot-actuator" />
         <module name="spring-boot-mybatis-hikaricp" />
+        <module name="spring-boot-data-jpa" />
+        <module name="spring-boot-dubbo-service" />
+        <module name="spring-boot-dubbo-client" />
+        <module name="spring-boot-exception" />
+        <module name="spring-boot-admin" />
+        <module name="spring-boot-mybatis" />
         <module name="spring-boot-mybatis-mutil-database" />
-        <module name="spring-boot-mybatis-plugin" />
-        <module name="spring-boot-rabbit-amqp" />
-        <module name="spring-boot-rabbitmq" />
+        <module name="spring-boot-actuator-client" />
         <module name="spring-boot-rabbitmq-delay" />
-        <module name="spring-boot-rest-template" />
         <module name="spring-boot-start" />
+        <module name="spring-boot-mybatis-plugin" />
         <module name="spring-boot-swagger" />
-        <module name="spring-boot-task" />
-        <module name="spring-boot-thymeleaf" />
-        <module name="spring-boot-validation1" />
-        <module name="springboot-dubbo-client" />
+        <module name="spring-boot-rabbit-amqp" />
+        <module name="spring-boot-rest-template" />
+        <module name="spring-boot-rabbitmq" />
         <module name="springboot-rabbit" />
+        <module name="spring-boot-thymeleaf" />
+        <module name="spring-boot-lettuce-redis" />
+        <module name="spring-boot-task" />
+        <module name="spring-boot-elasticsearch" />
+        <module name="spring-boot-mongodb" />
+        <module name="spring-boot-cache-redis" />
+        <module name="spring-boot-jdbctemplate" />
+        <module name="springboot-dubbo-client" />
+        <module name="spring-boot-config" />
+        <module name="spring-boot-actuator-admin" />
+        <module name="spring-boot-validation1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -48,10 +50,12 @@
       <module name="spring-boot-data-jpa" target="1.8" />
       <module name="spring-boot-dubbo-client" target="1.8" />
       <module name="spring-boot-dubbo-service" target="1.8" />
+      <module name="spring-boot-elasticsearch" target="1.8" />
       <module name="spring-boot-exception" target="1.8" />
       <module name="spring-boot-file-upload" target="1.8" />
       <module name="spring-boot-jdbctemplate" target="1.8" />
       <module name="spring-boot-lettuce-redis" target="1.8" />
+      <module name="spring-boot-mongodb" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-mybatis-hikaricp" target="1.8" />
       <module name="spring-boot-mybatis-mutil-database" target="1.8" />
@@ -67,8 +71,40 @@
       <module name="spring-boot-validation1" target="1.8" />
       <module name="springboot-dubbo" target="1.8" />
       <module name="springboot-dubbo-client" target="1.8" />
-      <module name="springboot-learning-experience" target="1.5" />
+      <module name="springboot-learning-experience" target="1.8" />
       <module name="springboot-rabbit" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-actuator" options="-parameters" />
+      <module name="spring-boot-actuator-admin" options="-parameters" />
+      <module name="spring-boot-actuator-client" options="-parameters" />
+      <module name="spring-boot-admin" options="-parameters" />
+      <module name="spring-boot-cache-redis" options="-parameters" />
+      <module name="spring-boot-config" options="-parameters" />
+      <module name="spring-boot-data-jpa" options="-parameters" />
+      <module name="spring-boot-dubbo-client" options="-parameters" />
+      <module name="spring-boot-dubbo-service" options="-parameters" />
+      <module name="spring-boot-elasticsearch" options="-parameters" />
+      <module name="spring-boot-exception" options="-parameters" />
+      <module name="spring-boot-file-upload" options="-parameters" />
+      <module name="spring-boot-jdbctemplate" options="-parameters" />
+      <module name="spring-boot-lettuce-redis" options="-parameters" />
+      <module name="spring-boot-mongodb" options="-parameters" />
+      <module name="spring-boot-mybatis" options="-parameters" />
+      <module name="spring-boot-mybatis-hikaricp" options="-parameters" />
+      <module name="spring-boot-mybatis-mutil-database" options="-parameters" />
+      <module name="spring-boot-mybatis-plugin" options="-parameters" />
+      <module name="spring-boot-rabbit-amqp" options="-parameters" />
+      <module name="spring-boot-rabbitmq" options="-parameters" />
+      <module name="spring-boot-rabbitmq-delay" options="-parameters" />
+      <module name="spring-boot-rest-template" options="-parameters" />
+      <module name="spring-boot-start" options="-parameters" />
+      <module name="spring-boot-swagger" options="-parameters" />
+      <module name="spring-boot-task" options="-parameters" />
+      <module name="spring-boot-thymeleaf" options="-parameters" />
+      <module name="spring-boot-validation1" options="-parameters" />
+    </option>
   </component>
 </project>

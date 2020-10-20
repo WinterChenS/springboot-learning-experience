@@ -48,6 +48,8 @@
         <module>spring-boot-validation1</module>
 
 
+
+
         <!-- springboot 整合 mybatis 并使用HikariCP作为数据库连接池-->
         <module>spring-boot-mybatis-hikaricp</module>
         <!-- RestTemplate -->
@@ -64,6 +66,9 @@
         <module>spring-boot-admin</module>
         <!-- 监控的端点 -->
         <module>spring-boot-actuator-client</module>
+
+        <!-- mongodb 2020-10-19 -->
+        <module>spring-boot-mongodb</module>
     </modules>
 
 </project>
