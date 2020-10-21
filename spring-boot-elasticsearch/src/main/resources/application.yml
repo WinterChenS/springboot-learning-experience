@@ -1,0 +1,6 @@
+server:
+  port: 8897
+
+spring:
+  application:
+    name: spring-boot-elasticsearch

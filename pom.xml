@@ -69,6 +69,9 @@
 
         <!-- mongodb 2020-10-19 -->
         <module>spring-boot-mongodb</module>
+        <module>spring-boot-elasticsearch</module>
+        <!-- hadoop -->
+        <module>spring-boot-hadoop</module>
     </modules>
 
 </project>
