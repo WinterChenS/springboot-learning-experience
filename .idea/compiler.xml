@@ -12,6 +12,7 @@
         <module name="spring-boot-data-jpa" />
         <module name="spring-boot-dubbo-service" />
         <module name="spring-boot-dubbo-client" />
+        <module name="spring-boot-hadoop" />
         <module name="spring-boot-exception" />
         <module name="spring-boot-admin" />
         <module name="spring-boot-mybatis" />
@@ -53,6 +54,7 @@
       <module name="spring-boot-elasticsearch" target="1.8" />
       <module name="spring-boot-exception" target="1.8" />
       <module name="spring-boot-file-upload" target="1.8" />
+      <module name="spring-boot-hadoop" target="1.8" />
       <module name="spring-boot-jdbctemplate" target="1.8" />
       <module name="spring-boot-lettuce-redis" target="1.8" />
       <module name="spring-boot-mongodb" target="1.8" />
@@ -89,6 +91,7 @@
       <module name="spring-boot-elasticsearch" options="-parameters" />
       <module name="spring-boot-exception" options="-parameters" />
       <module name="spring-boot-file-upload" options="-parameters" />
+      <module name="spring-boot-hadoop" options="-parameters" />
       <module name="spring-boot-jdbctemplate" options="-parameters" />
       <module name="spring-boot-lettuce-redis" options="-parameters" />
       <module name="spring-boot-mongodb" options="-parameters" />

@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-elasticsearch/spring-boot-elasticsearch.iml" filepath="$PROJECT_DIR$/spring-boot-elasticsearch/spring-boot-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-exception/spring-boot-exception.iml" filepath="$PROJECT_DIR$/spring-boot-exception/spring-boot-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-file-upload/spring-boot-file-upload.iml" filepath="$PROJECT_DIR$/spring-boot-file-upload/spring-boot-file-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-hadoop/spring-boot-hadoop.iml" filepath="$PROJECT_DIR$/spring-boot-hadoop/spring-boot-hadoop.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbctemplate/spring-boot-jdbctemplate.iml" filepath="$PROJECT_DIR$/spring-boot-jdbctemplate/spring-boot-jdbctemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-lettuce-redis/spring-boot-lettuce-redis.iml" filepath="$PROJECT_DIR$/spring-boot-lettuce-redis/spring-boot-lettuce-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mongodb/spring-boot-mongodb.iml" filepath="$PROJECT_DIR$/spring-boot-mongodb/spring-boot-mongodb.iml" />

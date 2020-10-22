@@ -8,6 +8,7 @@ import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
 import java.util.List;
@@ -19,9 +20,14 @@ public class PoemServiceImpl implements PoemService {
     private MongoTemplate mongoTemplate;
 
 
+    @Transactional(rollbackFor = Throwable.class)
     @Override
-    public Poem insertOne(Poem poem) {
-        return mongoTemplate.save(poem);
+    public Poem insertOne(Poem poem) throws Throwable {
+        Poem save = mongoTemplate.save(poem);
+        if (true){
+            throw new Throwable("rollback");
+        }
+        return save;
     }
 
     @Override
@@ -67,5 +73,6 @@ public class PoemServiceImpl implements PoemService {
         Query query = Query.query(Criteria.where("author").is(author));
         return mongoTemplate.find(query, Poem.class);
     }
+
 
 }

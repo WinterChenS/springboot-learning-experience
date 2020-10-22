@@ -2,6 +2,7 @@ package com.winterchen.mongodb.controller;
 
 import com.winterchen.mongodb.model.Poem;
 import com.winterchen.mongodb.service.PoemService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -9,6 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Slf4j
 @RestController
 @RequestMapping("/api/v1/poem")
 public class PoemController {
@@ -22,7 +24,12 @@ public class PoemController {
             @RequestBody
             Poem poem
     ) {
-        return ok(poemService.insertOne(poem));
+        try {
+            return ok(poemService.insertOne(poem));
+        } catch (Throwable throwable) {
+            log.error(throwable.getMessage());
+        }
+        return fail("rollback");
     }
 
     @PostMapping("/batch")
@@ -87,6 +94,13 @@ public class PoemController {
         Map<String, Object> result = new HashMap<>();
         result.put("result","ok");
         result.put("data", data);
+        return result;
+    }
+
+    private Map<String, Object> fail(String message) {
+        Map<String, Object> result = new HashMap<>();
+        result.put("result","fail");
+        result.put("message", message);
         return result;
     }
 

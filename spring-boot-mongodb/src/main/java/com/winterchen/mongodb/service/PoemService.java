@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface PoemService {
 
-    Poem insertOne(Poem poem);
+    Poem insertOne(Poem poem) throws Throwable;
 
     List<Poem> inertMany(List<Poem> poemList);
 

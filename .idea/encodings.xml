@@ -24,6 +24,7 @@
     <file url="file://$PROJECT_DIR$/spring-boot-exception/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-file-upload" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-file-upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-hadoop/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-jdbctemplate" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-jdbctemplate/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-lettuce-redis" charset="UTF-8" />
