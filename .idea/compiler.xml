@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -12,10 +13,11 @@
         <module name="spring-boot-data-jpa" />
         <module name="spring-boot-dubbo-service" />
         <module name="spring-boot-dubbo-client" />
-        <module name="spring-boot-hadoop" />
         <module name="spring-boot-exception" />
         <module name="spring-boot-admin" />
         <module name="spring-boot-mybatis" />
+        <module name="spring-boot-mongodb" />
+        <module name="spring-boot-config" />
         <module name="spring-boot-mybatis-mutil-database" />
         <module name="spring-boot-actuator-client" />
         <module name="spring-boot-rabbitmq-delay" />
@@ -30,11 +32,10 @@
         <module name="spring-boot-lettuce-redis" />
         <module name="spring-boot-task" />
         <module name="spring-boot-elasticsearch" />
-        <module name="spring-boot-mongodb" />
         <module name="spring-boot-cache-redis" />
         <module name="spring-boot-jdbctemplate" />
         <module name="springboot-dubbo-client" />
-        <module name="spring-boot-config" />
+        <module name="spring-boot-hadoop" />
         <module name="spring-boot-actuator-admin" />
         <module name="spring-boot-validation1" />
       </profile>
