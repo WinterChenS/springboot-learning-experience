@@ -19,36 +19,69 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1d6361-a0be-43ba-9ca6-1ded70710311" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-elasticsearch/src/main/java/com/winterchen/springbootelasticsearch/controller/PoemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-elasticsearch/src/main/java/com/winterchen/springbootelasticsearch/dao/ElasticRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-elasticsearch/src/main/java/com/winterchen/springbootelasticsearch/model/Poem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-elasticsearch/src/main/java/com/winterchen/springbootelasticsearch/service/PoemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-elasticsearch/src/main/java/com/winterchen/springbootelasticsearch/service/impl/PoemServiceImpl.java" afterDir="false" />
+    <list default="true" id="bc1d6361-a0be-43ba-9ca6-1ded70710311" name="Default" comment="add mongodb transaction">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_annotations_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_core_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_boot_autoconfigure_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_boot_starter_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_xiaoymin_knife4j_spring_ui_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_core_1_5_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_15_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oozie_oozie_client_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oozie_oozie_hadoop_auth_hadoop_2_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_25_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/configuration/AutoConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/configuration/HadoopAuthManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/configuration/HadoopAuthenticationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/constants/OozieConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/controller/OozieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/enums/ExecuteTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/enums/FrequencyTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/enums/TaskTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/model/CoordinatorRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/model/OozieConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/model/WorkflowRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/service/OozieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/service/impl/OozieServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-elasticsearch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-elasticsearch/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-elasticsearch/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-hadoop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-hadoop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-hadoop/shell/hadoop-run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-hadoop/shell/hadoop-run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/HadoopDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/HadoopDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/configuration/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/configuration/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/service/impl/HDFSServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/java/com/winterchen/hadoopdemo/service/impl/HDFSServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-hadoop/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-hadoop/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-learning-experience.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-learning-experience.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -72,13 +105,15 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -88,7 +123,7 @@
       <recent name="$PROJECT_DIR$/springboot-dubbo-client/src/main/java/com/winterchen" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootElasticsearchApplication">
+  <component name="RunManager" selected="Spring Boot.HadoopDemoApplication">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -591,42 +626,42 @@
     </configuration>
     <list>
       <item itemvalue="Application.SpringbootDubboClientApplication" />
-      <item itemvalue="JUnit.SpringBootMybatisPluginApplicationTests.test1" />
-      <item itemvalue="JUnit.SpringBootLettuceRedisApplicationTests.get" />
-      <item itemvalue="JUnit.SpringBootCacheRedisApplicationTests.get" />
       <item itemvalue="JUnit.HelloSenderTest.hello" />
-      <item itemvalue="Spring Boot.SpringbootDubboApplication" />
+      <item itemvalue="JUnit.SpringBootCacheRedisApplicationTests.get" />
+      <item itemvalue="JUnit.SpringBootLettuceRedisApplicationTests.get" />
+      <item itemvalue="JUnit.SpringBootMybatisPluginApplicationTests.test1" />
+      <item itemvalue="Spring Boot.HadoopDemoApplication" />
       <item itemvalue="Spring Boot.ModuleAuthApplication" />
       <item itemvalue="Spring Boot.ModuleUserApplication" />
-      <item itemvalue="Spring Boot.SpringBootDubboServiceApplication" />
-      <item itemvalue="Spring Boot.SpringbootDubboClientApplication" />
-      <item itemvalue="Spring Boot.SpringBootAdminApplication" />
-      <item itemvalue="Spring Boot.SpringBootActuatorClientApplication" />
-      <item itemvalue="Spring Boot.SpringBootMybatisMutilDatabaseApplication" />
-      <item itemvalue="Spring Boot.SpringBootThymeleafApplication" />
-      <item itemvalue="Spring Boot.SpringBootStartApplication" />
-      <item itemvalue="Spring Boot.SpringBootDataJpaApplication" />
-      <item itemvalue="Spring Boot.SpringBootJdbctemplateApplication" />
-      <item itemvalue="Spring Boot.SpringBootConfigApplication" />
-      <item itemvalue="Spring Boot.SpringBootMybatisApplication" />
-      <item itemvalue="Spring Boot.SpringBootMybatisPluginApplication" />
-      <item itemvalue="Spring Boot.SpringBootLettuceRedisApplication" />
-      <item itemvalue="Spring Boot.SpringBootCacheRedisApplication" />
-      <item itemvalue="Spring Boot.SpringBootSwaggerApplication" />
-      <item itemvalue="Spring Boot.SpringBootRabbitAmqpApplication" />
-      <item itemvalue="Spring Boot.SpringBootRestTemplateApplication" />
-      <item itemvalue="Spring Boot.SpringbootRabbitApplication" />
-      <item itemvalue="Spring Boot.SpringBootRabbitmqDelayApplication" />
-      <item itemvalue="Spring Boot.SpringBootActuatorApplication" />
       <item itemvalue="Spring Boot.SpringBootActuatorAdminApplication" />
-      <item itemvalue="Spring Boot.SpringBootTaskApplication" />
-      <item itemvalue="Spring Boot.SpringBootFileUploadApplication" />
-      <item itemvalue="Spring Boot.SpringBootExceptionApplication" />
-      <item itemvalue="Spring Boot.SpringBootValidation1Application" />
-      <item itemvalue="Spring Boot.SpringBootMybatisHikaricpApplication" />
-      <item itemvalue="Spring Boot.SpringBootMongodbApplication" />
+      <item itemvalue="Spring Boot.SpringBootActuatorApplication" />
+      <item itemvalue="Spring Boot.SpringBootActuatorClientApplication" />
+      <item itemvalue="Spring Boot.SpringBootAdminApplication" />
+      <item itemvalue="Spring Boot.SpringBootCacheRedisApplication" />
+      <item itemvalue="Spring Boot.SpringBootConfigApplication" />
+      <item itemvalue="Spring Boot.SpringBootDataJpaApplication" />
+      <item itemvalue="Spring Boot.SpringBootDubboServiceApplication" />
       <item itemvalue="Spring Boot.SpringBootElasticsearchApplication" />
-      <item itemvalue="Spring Boot.HadoopDemoApplication" />
+      <item itemvalue="Spring Boot.SpringBootExceptionApplication" />
+      <item itemvalue="Spring Boot.SpringBootFileUploadApplication" />
+      <item itemvalue="Spring Boot.SpringBootJdbctemplateApplication" />
+      <item itemvalue="Spring Boot.SpringBootLettuceRedisApplication" />
+      <item itemvalue="Spring Boot.SpringBootMongodbApplication" />
+      <item itemvalue="Spring Boot.SpringBootMybatisApplication" />
+      <item itemvalue="Spring Boot.SpringBootMybatisHikaricpApplication" />
+      <item itemvalue="Spring Boot.SpringBootMybatisMutilDatabaseApplication" />
+      <item itemvalue="Spring Boot.SpringBootMybatisPluginApplication" />
+      <item itemvalue="Spring Boot.SpringBootRabbitAmqpApplication" />
+      <item itemvalue="Spring Boot.SpringBootRabbitmqDelayApplication" />
+      <item itemvalue="Spring Boot.SpringBootRestTemplateApplication" />
+      <item itemvalue="Spring Boot.SpringBootStartApplication" />
+      <item itemvalue="Spring Boot.SpringBootSwaggerApplication" />
+      <item itemvalue="Spring Boot.SpringBootTaskApplication" />
+      <item itemvalue="Spring Boot.SpringBootThymeleafApplication" />
+      <item itemvalue="Spring Boot.SpringBootValidation1Application" />
+      <item itemvalue="Spring Boot.SpringbootDubboApplication" />
+      <item itemvalue="Spring Boot.SpringbootDubboClientApplication" />
+      <item itemvalue="Spring Boot.SpringbootRabbitApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -684,6 +719,8 @@
       <workItem from="1532505539307" duration="34000" />
       <workItem from="1603102801549" duration="12992000" />
       <workItem from="1603349450617" duration="8173000" />
+      <workItem from="1606097828762" duration="25981000" />
+      <workItem from="1606200390909" duration="29870000" />
     </task>
     <task id="LOCAL-00001" summary="添加springboot-actuator和springboot admin">
       <created>1527756716437</created>
@@ -960,82 +997,120 @@
     <option name="LAST_COMMIT_MESSAGE" value="add mongodb transaction" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="238" key="#com.intellij.ide.util.MemberChooser" timestamp="1603354532255">
+    <state x="653" y="238" key="#com.intellij.ide.util.MemberChooser" timestamp="1606299890487">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="238" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1603354532255" />
-    <state width="1638" height="319" key="GridCell.Tab.0.bottom" timestamp="1603366636797">
+    <state x="653" y="238" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606299890487" />
+    <state x="603" y="239" key="#xdebugger.evaluate" timestamp="1606307313870">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="319" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603366636797" />
-    <state width="1638" height="319" key="GridCell.Tab.0.bottom/38.23.1642.1027@38.23.1642.1027" timestamp="1603331101513" />
-    <state width="1638" height="319" key="GridCell.Tab.0.center" timestamp="1603366636786">
+    <state x="603" y="239" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1606307313870" />
+    <state width="471" height="466" key="DebuggerActiveHint" timestamp="1606307189613">
+      <screen x="38" y="23" width="1642" height="1027" />
+    </state>
+    <state width="471" height="466" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1606291919416" />
+    <state width="471" height="466" key="DebuggerActiveHint/38.23.1642.1027@38.23.1642.1027" timestamp="1606307189613" />
+    <state width="1638" height="371" key="GridCell.Tab.0.bottom" timestamp="1606309627050">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="319" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603366636786" />
-    <state width="1638" height="319" key="GridCell.Tab.0.center/38.23.1642.1027@38.23.1642.1027" timestamp="1603331101511" />
-    <state width="1638" height="319" key="GridCell.Tab.0.left" timestamp="1603366636785">
+    <state width="1638" height="371" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606309627050" />
+    <state width="1638" height="371" key="GridCell.Tab.0.bottom/38.23.1642.1027@38.23.1642.1027" timestamp="1606307450415" />
+    <state width="1638" height="371" key="GridCell.Tab.0.bottom/39.23.1641.1027@39.23.1641.1027" timestamp="1606308582448" />
+    <state width="1638" height="371" key="GridCell.Tab.0.center" timestamp="1606309627048">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="319" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603366636785" />
-    <state width="1638" height="319" key="GridCell.Tab.0.left/38.23.1642.1027@38.23.1642.1027" timestamp="1603331101509" />
-    <state width="1638" height="319" key="GridCell.Tab.0.right" timestamp="1603366636793">
+    <state width="1638" height="371" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606309627048" />
+    <state width="1638" height="371" key="GridCell.Tab.0.center/38.23.1642.1027@38.23.1642.1027" timestamp="1606307450404" />
+    <state width="1638" height="371" key="GridCell.Tab.0.center/39.23.1641.1027@39.23.1641.1027" timestamp="1606308582446" />
+    <state width="1638" height="371" key="GridCell.Tab.0.left" timestamp="1606309627047">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="319" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603366636793" />
-    <state width="1638" height="319" key="GridCell.Tab.0.right/38.23.1642.1027@38.23.1642.1027" timestamp="1603331101512" />
-    <state width="1638" height="319" key="GridCell.Tab.1.bottom" timestamp="1603366636280">
+    <state width="1638" height="371" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606309627047" />
+    <state width="1638" height="371" key="GridCell.Tab.0.left/38.23.1642.1027@38.23.1642.1027" timestamp="1606307450401" />
+    <state width="1638" height="371" key="GridCell.Tab.0.left/39.23.1641.1027@39.23.1641.1027" timestamp="1606308582443" />
+    <state width="1638" height="371" key="GridCell.Tab.0.right" timestamp="1606309627049">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="319" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603366636280" />
-    <state width="1638" height="319" key="GridCell.Tab.1.bottom/38.23.1642.1027@38.23.1642.1027" timestamp="1603331101519" />
-    <state width="1638" height="319" key="GridCell.Tab.1.center" timestamp="1603366636273">
+    <state width="1638" height="371" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606309627049" />
+    <state width="1638" height="371" key="GridCell.Tab.0.right/38.23.1642.1027@38.23.1642.1027" timestamp="1606307450410" />
+    <state width="1638" height="371" key="GridCell.Tab.0.right/39.23.1641.1027@39.23.1641.1027" timestamp="1606308582447" />
+    <state width="1638" height="371" key="GridCell.Tab.1.bottom" timestamp="1606309439989">
+      <screen x="39" y="23" width="1641" height="1027" />
+    </state>
+    <state width="1638" height="371" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606309413924" />
+    <state width="1638" height="371" key="GridCell.Tab.1.bottom/38.23.1642.1027@38.23.1642.1027" timestamp="1606307448999" />
+    <state width="1638" height="371" key="GridCell.Tab.1.bottom/39.23.1641.1027@39.23.1641.1027" timestamp="1606309439989" />
+    <state width="1638" height="371" key="GridCell.Tab.1.center" timestamp="1606309439987">
+      <screen x="39" y="23" width="1641" height="1027" />
+    </state>
+    <state width="1638" height="371" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606309413921" />
+    <state width="1638" height="371" key="GridCell.Tab.1.center/38.23.1642.1027@38.23.1642.1027" timestamp="1606307448995" />
+    <state width="1638" height="371" key="GridCell.Tab.1.center/39.23.1641.1027@39.23.1641.1027" timestamp="1606309439987" />
+    <state width="1638" height="371" key="GridCell.Tab.1.left" timestamp="1606309439985">
+      <screen x="39" y="23" width="1641" height="1027" />
+    </state>
+    <state width="1638" height="371" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606309413920" />
+    <state width="1638" height="371" key="GridCell.Tab.1.left/38.23.1642.1027@38.23.1642.1027" timestamp="1606307448994" />
+    <state width="1638" height="371" key="GridCell.Tab.1.left/39.23.1641.1027@39.23.1641.1027" timestamp="1606309439985" />
+    <state width="1638" height="371" key="GridCell.Tab.1.right" timestamp="1606309439988">
+      <screen x="39" y="23" width="1641" height="1027" />
+    </state>
+    <state width="1638" height="371" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606309413922" />
+    <state width="1638" height="371" key="GridCell.Tab.1.right/38.23.1642.1027@38.23.1642.1027" timestamp="1606307448996" />
+    <state width="1638" height="371" key="GridCell.Tab.1.right/39.23.1641.1027@39.23.1641.1027" timestamp="1606309439988" />
+    <state width="1638" height="371" key="GridCell.Tab.2.bottom" timestamp="1606309413943">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="319" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603366636273" />
-    <state width="1638" height="319" key="GridCell.Tab.1.center/38.23.1642.1027@38.23.1642.1027" timestamp="1603331101515" />
-    <state width="1638" height="319" key="GridCell.Tab.1.left" timestamp="1603366636271">
+    <state width="1638" height="371" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606309413943" />
+    <state width="1638" height="371" key="GridCell.Tab.2.bottom/38.23.1642.1027@38.23.1642.1027" timestamp="1606307449005" />
+    <state width="1638" height="371" key="GridCell.Tab.2.bottom/39.23.1641.1027@39.23.1641.1027" timestamp="1606308581655" />
+    <state width="1638" height="371" key="GridCell.Tab.2.center" timestamp="1606309413927">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="319" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603366636271" />
-    <state width="1638" height="319" key="GridCell.Tab.1.left/38.23.1642.1027@38.23.1642.1027" timestamp="1603331101514" />
-    <state width="1638" height="319" key="GridCell.Tab.1.right" timestamp="1603366636275">
+    <state width="1638" height="371" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606309413927" />
+    <state width="1638" height="371" key="GridCell.Tab.2.center/38.23.1642.1027@38.23.1642.1027" timestamp="1606307449002" />
+    <state width="1638" height="371" key="GridCell.Tab.2.center/39.23.1641.1027@39.23.1641.1027" timestamp="1606308581651" />
+    <state width="1638" height="371" key="GridCell.Tab.2.left" timestamp="1606309413925">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="319" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603366636275" />
-    <state width="1638" height="319" key="GridCell.Tab.1.right/38.23.1642.1027@38.23.1642.1027" timestamp="1603331101517" />
-    <state width="1638" height="319" key="GridCell.Tab.2.bottom" timestamp="1603366636293">
+    <state width="1638" height="371" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606309413925" />
+    <state width="1638" height="371" key="GridCell.Tab.2.left/38.23.1642.1027@38.23.1642.1027" timestamp="1606307449001" />
+    <state width="1638" height="371" key="GridCell.Tab.2.left/39.23.1641.1027@39.23.1641.1027" timestamp="1606308581650" />
+    <state width="1638" height="371" key="GridCell.Tab.2.right" timestamp="1606309413938">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="319" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603366636293" />
-    <state width="1638" height="319" key="GridCell.Tab.2.bottom/38.23.1642.1027@38.23.1642.1027" timestamp="1603331101529" />
-    <state width="1638" height="319" key="GridCell.Tab.2.center" timestamp="1603366636290">
+    <state width="1638" height="371" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606309413938" />
+    <state width="1638" height="371" key="GridCell.Tab.2.right/38.23.1642.1027@38.23.1642.1027" timestamp="1606307449003" />
+    <state width="1638" height="371" key="GridCell.Tab.2.right/39.23.1641.1027@39.23.1641.1027" timestamp="1606308581652" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1606273956303">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="319" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603366636290" />
-    <state width="1638" height="319" key="GridCell.Tab.2.center/38.23.1642.1027@38.23.1642.1027" timestamp="1603331101527" />
-    <state width="1638" height="319" key="GridCell.Tab.2.left" timestamp="1603366636289">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="319" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603366636289" />
-    <state width="1638" height="319" key="GridCell.Tab.2.left/38.23.1642.1027@38.23.1642.1027" timestamp="1603331101526" />
-    <state width="1638" height="319" key="GridCell.Tab.2.right" timestamp="1603366636292">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="319" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603366636292" />
-    <state width="1638" height="319" key="GridCell.Tab.2.right/38.23.1642.1027@38.23.1642.1027" timestamp="1603331101528" />
-    <state x="341" y="164" key="SettingsEditor" timestamp="1603103618434">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1603103618434" />
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1606273956303" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1603331387472">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603331387472" />
+    <state width="860" height="537" key="XDebugger.FullValuePopup" timestamp="1606307307878">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="860" height="537" key="XDebugger.FullValuePopup/0.0.1680.1050@0.0.1680.1050" timestamp="1606307307878" />
+    <state width="860" height="537" key="XDebugger.FullValuePopup/38.23.1642.1027@38.23.1642.1027" timestamp="1606287878454" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606108183547">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606108183547" />
+    <state x="541" y="280" width="672" height="490" key="find.popup" timestamp="1606113884970">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="541" y="280" width="672" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606113884970" />
     <state x="208" y="188" key="new project wizard" timestamp="1603170985795">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="208" y="188" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1603170985795" />
+    <state x="505" y="187" width="670" height="676" key="search.everywhere.popup" timestamp="1606273903440">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="187" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606273903440" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

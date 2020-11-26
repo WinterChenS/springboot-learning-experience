@@ -226,7 +226,7 @@ public class HDFSServiceImpl implements HDFSService {
             fileSystem.copyFromLocalFile(false,clientPath,serverPath);
             return true;
         } catch (IOException e) {
-            log.error(e.getMessage());
+            log.error(e.getMessage(), e);
         }
         return false;
     }

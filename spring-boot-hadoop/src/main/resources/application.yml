@@ -5,7 +5,7 @@ spring:
     name: hadoop-demo
   datasource:
     hive: #hive数据源
-      url: jdbc:hive2://127.0.0.1:10000/demo
+      url: jdbc:hive2://192.168.150.119:10000/default
       type: com.alibaba.druid.pool.DruidDataSource
       username: winterchen
       password: winterchen
@@ -26,6 +26,28 @@ spring:
       maxOpenPreparedStatements: 20
       filters: stat
 hdfs:
-  hdfsPath: hdfs://127.0.0.1:9000
-  hdfsName: root
+  hdfsPath: hdfs://bigdata-master:8020
+  hdfsName: bigdata-master
 
+nameNode: hdfs://bigdata-master:8020
+resourceManager: hdfs://bigdata-master:8088
+queueName: default
+job-tracker: bigdata-master:8032
+
+jdbc:
+  url: jdbc:hive2://192.168.150.119:10000/default
+  password:
+
+oozie:
+  url: http://bigdata-master:11000/oozie
+  wf:
+    application:
+      path: hdfs://bigdata-master:9000/user/oozie/workflow/hiveserver2.xml
+  use:
+    system:
+      libpath: true
+  libpath: hdfs://bigdata-master:8020/user/oozie/share/lib
+
+## $1:taskType  $2:executeType $3:callbackId
+callback:
+  url: http://172.16.120.29:8898/oozie/callback?executeType=$1\&taskType=$2\&callbackId=$3

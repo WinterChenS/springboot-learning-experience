@@ -17,7 +17,8 @@
     <properties>
         <java.version>1.8</java.version>
         <hadoop.version>3.3.0</hadoop.version>
-        <swagger.version>3.0.0</swagger.version>
+<!--        <swagger.version>3.0.0</swagger.version>-->
+        <knife4j.version>3.0.1</knife4j.version>
     </properties>
 
     <dependencies>
@@ -33,9 +34,10 @@
         </dependency>
 
         <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-boot-starter</artifactId>
-            <version>${swagger.version}</version>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+            <!--在引用时请在maven中央仓库搜索最新版本号-->
+            <version>${knife4j.version}</version>
         </dependency>
 
 
@@ -102,6 +104,13 @@
             <groupId>cn.bestwu</groupId>
             <artifactId>ik-analyzers</artifactId>
             <version>5.1.0</version>
+        </dependency>
+
+        <!-- oozie -->
+        <dependency>
+            <groupId>org.apache.oozie</groupId>
+            <artifactId>oozie-client</artifactId>
+            <version>4.3.0</version>
         </dependency>
 
         <dependency>
