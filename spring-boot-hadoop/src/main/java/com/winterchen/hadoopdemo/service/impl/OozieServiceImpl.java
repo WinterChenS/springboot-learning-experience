@@ -72,18 +72,18 @@ public class OozieServiceImpl implements OozieService {
 
             /*Set Your Application Configuration*/
             prop.setProperty(OozieConstants.NAME_NODE, oozieConfig.getNameNode());
-            prop.setProperty("jobTracker",oozieConfig.getJobTracker());
+            prop.setProperty(OozieConstants.JOB_TRACKER,oozieConfig.getJobTracker());
             Path outputPath = new Path(fileSystem.getHomeDirectory(), workflowRequest.getWfPath().concat("output/"));
-            prop.setProperty("jobOutput", outputPath.toString());
-            prop.setProperty("jdbcUrl", oozieConfig.getJdbcUrl());
-            prop.setProperty("password", StringUtils.isEmpty(oozieConfig.getPassword()) ? "" : oozieConfig.getPassword());
-            prop.setProperty("sqlInput",workflowRequest.getWfPath().concat("sql/"));
-            prop.setProperty("user.name","admin");
-            prop.setProperty("taskType", TaskTypeEnum.WORKFLOW.name());
-            prop.setProperty("shellFileName",shellFileName);
-            prop.setProperty("shellFilePath", shellPath);
-            prop.setProperty("callbackId", workflowRequest.getCallbackId());
-            prop.setProperty("queueName", oozieConfig.getQueueName());
+            prop.setProperty(OozieConstants.JOB_OUTPUT, outputPath.toString());
+            prop.setProperty(OozieConstants.JDBC_URL, oozieConfig.getJdbcUrl());
+            prop.setProperty(OozieConstants.PASSWORD, StringUtils.isEmpty(oozieConfig.getPassword()) ? "" : oozieConfig.getPassword());
+            prop.setProperty(OozieConstants.SQL_INPUT,workflowRequest.getWfPath().concat("sql/"));
+            prop.setProperty(OozieConstants.USER_NAME,"admin");
+            prop.setProperty(OozieConstants.TASK_TYPE, TaskTypeEnum.WORKFLOW.name());
+            prop.setProperty(OozieConstants.SHELL_FILE_NAME,shellFileName);
+            prop.setProperty(OozieConstants.SHELL_FILE_PATH, shellPath);
+            prop.setProperty(OozieConstants.CALLBACK_ID, workflowRequest.getCallbackId());
+            prop.setProperty(OozieConstants.QUEUE_NAME, oozieConfig.getQueueName());
 
             String jobId = oozieClient.submit(prop);
             oozieClient.start(jobId);
@@ -91,69 +91,9 @@ public class OozieServiceImpl implements OozieService {
 
             log.debug("workflow job submitted, jobId = {}", jobId);
 
-            int retries = 3;
-            for (int i = 1; i <= retries; i++) {
-                // Sleep 60 sec./ 3 mins
-                Thread.sleep(6 * 1000);
-
-                WorkflowJob jobInfo = oozieClient.getJobInfo(jobId);
-                WorkflowJob.Status jobStatus = jobInfo.getStatus();
-                log.debug("Workflow job running ...");
-                log.debug("HiveActionWorkflowJob Status Try: {}", i);
-                log.debug("HiveActionWorkflowJob Id: {}", jobInfo.getId());
-                log.debug("HiveActionWorkflowJob StartTime: {}",
-                        jobInfo.getStartTime());
-                log.debug("HiveActionWorkflowJob EndTime: {}", jobInfo.getEndTime());
-                log.debug("HiveActionWorkflowJob ConsoleURL: {}",
-                        jobInfo.getConsoleUrl());
-                log.debug("HiveActionWorkflowJob Status: {}", jobInfo.getStatus());
-
-                WorkflowAction workflowAction = jobInfo.getActions().get(0);
-
-                log.debug("HiveActionWorkflowJob Action consoleURL: {}",
-                        workflowAction.getConsoleUrl());
-                log.debug("HiveActionWorkflowJob Action Name: {}",
-                        workflowAction.getName());
-                log.debug("HiveActionWorkflowJob Action error message: {}",
-                        workflowAction.getErrorMessage());
-                log.debug("HiveActionWorkflowJob Action Status: {}",
-                        workflowAction.getStats());
-                log.debug("HiveActionWorkflowJob Action data: {}",
-                        workflowAction.getData());
-                log.debug("HiveActionWorkflowJob Action conf: {}",
-                        workflowAction.getConf());
-                log.debug("HiveActionWorkflowJob Action retries: {}",
-                        workflowAction.getRetries());
-                log.debug("HiveActionWorkflowJob Action id: {}",
-                        workflowAction.getId());
-                log.debug("HiveActionWorkflowJob Action start time: {}",
-                        workflowAction.getStartTime());
-                log.debug("HiveActionWorkflowJob Action end time: {}",
-                        workflowAction.getEndTime());
-                log.debug("HiveActionWorkflowJob Oozie Url: {}",
-                        oozieClient.getOozieUrl());
-
-                if (jobStatus == WorkflowJob.Status.SUCCEEDED) {
-                    log.info("Oozie workflow job was successful!" + jobStatus);
-                    break;
-                } else if (jobStatus == WorkflowJob.Status.PREP
-                        || jobStatus == WorkflowJob.Status.RUNNING) {
-                    if (i == retries) {
-                        throw new RuntimeException("Error executing workflow job!"
-                                + jobStatus);
-                    } else {
-                        continue;
-                    }
-                } else {
-                    throw new RuntimeException("Error executing workflow job!"
-                            + jobStatus);
-                }
-            }
             return jobId;
         } catch (OozieClientException e) {
             log.error("workflow任务提交失败" ,e);
-        } catch (InterruptedException e) {
-            log.error("workflow job submit error", e);
         }
 
         return null;
@@ -184,23 +124,23 @@ public class OozieServiceImpl implements OozieService {
             prop.setProperty(OozieClient.COORDINATOR_APP_PATH, appPath.toString());
             prop.setProperty(oozieClient.LIBPATH, oozieConfig.getOozieLibPath());
             prop.setProperty(oozieClient.USE_SYSTEM_LIBPATH, String.valueOf(oozieConfig.isOozieSystemLibPath()));
-            prop.setProperty("jobTracker",oozieConfig.getJobTracker());
-            prop.setProperty("user.name","admin");
-            prop.setProperty("workflowRoot", rootPath.toString());
+            prop.setProperty(OozieConstants.JOB_TRACKER,oozieConfig.getJobTracker());
+            prop.setProperty(OozieConstants.USER_NAME,"admin");
+            prop.setProperty(OozieConstants.WORKFLOW_ROOT, rootPath.toString());
             String start = DateUtil.format(DateUtil.parse(coordinatorRequest.getStartTime(), "yyyy-MM-dd HH:mm:ss"), "yyyy-MM-dd'T'HH:mm'Z'");
-            prop.setProperty("start", start);
+            prop.setProperty(OozieConstants.START, start);
             String end = DateUtil.format(DateUtil.parse(coordinatorRequest.getEndTime(), "yyyy-MM-dd HH:mm:ss"), "yyyy-MM-dd'T'HH:mm'Z'");
-            prop.setProperty("end", end);
+            prop.setProperty(OozieConstants.END, end);
             Path outputPath = new Path(fileSystem.getHomeDirectory(), coordinatorRequest.getWfPath().concat("output/"));
-            prop.setProperty("jobOutput", outputPath.toString());
-            prop.setProperty("jdbcUrl", oozieConfig.getJdbcUrl());
-            prop.setProperty("password", StringUtils.isEmpty(oozieConfig.getPassword()) ? "" : oozieConfig.getPassword());
-            prop.setProperty("sqlInput",coordinatorRequest.getWfPath().concat("sql/"));
-            prop.setProperty("taskType", TaskTypeEnum.COORDINATOR.name());
-            prop.setProperty("shellFileName",shellFileName);
-            prop.setProperty("shellFilePath", shellPath);
-            prop.setProperty("callbackId", coordinatorRequest.getCallbackId());
-            prop.setProperty("queueName", oozieConfig.getQueueName());
+            prop.setProperty(OozieConstants.JOB_OUTPUT, outputPath.toString());
+            prop.setProperty(OozieConstants.JDBC_URL, oozieConfig.getJdbcUrl());
+            prop.setProperty(OozieConstants.PASSWORD, StringUtils.isEmpty(oozieConfig.getPassword()) ? "" : oozieConfig.getPassword());
+            prop.setProperty(OozieConstants.SQL_INPUT,coordinatorRequest.getWfPath().concat("sql/"));
+            prop.setProperty(OozieConstants.TASK_TYPE, TaskTypeEnum.COORDINATOR.name());
+            prop.setProperty(OozieConstants.SHELL_FILE_NAME,shellFileName);
+            prop.setProperty(OozieConstants.SHELL_FILE_PATH, shellPath);
+            prop.setProperty(OozieConstants.CALLBACK_ID, coordinatorRequest.getCallbackId());
+            prop.setProperty(OozieConstants.QUEUE_NAME, oozieConfig.getQueueName());
 
             /*Set Your Application Configuration*/
             prop.setProperty(OozieConstants.NAME_NODE, oozieConfig.getNameNode());
@@ -209,58 +149,9 @@ public class OozieServiceImpl implements OozieService {
 
             log.debug("workflow job submitted, jobId = {}", jobId);
 
-            int retries = 2;
-            for (int i = 1; i <= retries; i++) {
-                // Sleep 60 sec./ 3 mins
-                Thread.sleep(6 * 1000);
-
-                CoordinatorJob coordJobInfo = oozieClient.getCoordJobInfo(jobId);
-                log.debug("Workflow job running ...");
-                log.debug("coordJobInfo Try: {}", i);
-                log.debug("coordJobInfo StartTime: {}", coordJobInfo.getStartTime());
-                log.debug("coordJobInfo NextMaterizedTime: {}",
-                        coordJobInfo.getNextMaterializedTime());
-                log.debug("coordJobInfo EndTime: {}", coordJobInfo.getEndTime());
-                log.debug("coordJobInfo Frequency: {}", coordJobInfo.getFrequency());
-                log.debug("coordJobInfo ConsoleURL: {}",
-                        coordJobInfo.getConsoleUrl());
-                log.debug("coordJobInfo Status: {}", coordJobInfo.getStatus());
-                for (CoordinatorAction action : coordJobInfo.getActions()) {
-                    log.debug("coordJobInfo Action Id: {}", action.getId());
-                    log.debug("coordJobInfo Action NominalTimeL: {}",
-                            action.getNominalTime());
-                    log.debug("coordJobInfo Action Runconf: {}",
-                            action.getRunConf());
-                    log.debug("coordJobInfo Action Status: {}", action.getStatus());
-                    log.debug("coordJobInfo ActionConsoleURL: {}",
-                            action.getConsoleUrl());
-                    log.debug("coordJobInfo ActionErrorMessage: {}",
-                            action.getErrorMessage());
-                }
-                if (coordJobInfo.getStatus() == Job.Status.RUNNING) {
-                    // Wait three times to see the running state is stable..then it
-                    // is fine.
-                    // Job will keep running even if hive action fails.
-                    if (i == retries) {
-                        log.info("Coord Job in running state!");
-                        break;
-                    } else {
-                        continue;
-                    }
-                } else if (coordJobInfo.getStatus() == Job.Status.PREMATER
-                        || coordJobInfo.getStatus() == Job.Status.PREP) {
-                    // still preparing.
-                    continue;
-                } else {
-                    throw new RuntimeException(
-                            "Error occured while running coord job!");
-                }
-            }
             return jobId;
         } catch (OozieClientException e) {
             log.error("workflow任务提交失败" ,e);
-        } catch (InterruptedException e) {
-            log.error("workflow job submit error", e);
         }
 
         return null;
@@ -300,7 +191,7 @@ public class OozieServiceImpl implements OozieService {
                             "    <start to='my-hive2-action'/>\n" +
                             "    <action name='my-hive2-action'>\n" +
                             "       <hive2 xmlns='uri:oozie:hive2-action:0.1'>\n" +
-                            "           <name-node>${namenode}</name-node>\n" +
+                            "           <name-node>${nameNode}</name-node>\n" +
                             "           <prepare>\n" +
                             "               <delete path='${jobOutput}'/>\n" +
                             "           </prepare>\n" +
@@ -323,7 +214,7 @@ public class OozieServiceImpl implements OozieService {
                             "    <action name='success-action'>\n" +
                             "        <shell xmlns=\"uri:oozie:shell-action:0.2\">\n" +
                             "            <job-tracker>${jobTracker}</job-tracker>\n" +
-                            "            <name-node>${namenode}</name-node>\n" +
+                            "            <name-node>${nameNode}</name-node>\n" +
                             "            <configuration>\n" +
                             "                <property>\n" +
                             "                  <name>mapred.job.queue.name</name>\n" +
@@ -344,7 +235,7 @@ public class OozieServiceImpl implements OozieService {
                             "    <action name='error-action'>\n" +
                             "        <shell xmlns=\"uri:oozie:shell-action:0.2\">\n" +
                             "            <job-tracker>${jobTracker}</job-tracker>\n" +
-                            "            <name-node>${namenode}</name-node>\n" +
+                            "            <name-node>${nameNode}</name-node>\n" +
                             "            <configuration>\n" +
                             "                <property>\n" +
                             "                  <name>mapred.job.queue.name</name>\n" +
@@ -426,7 +317,7 @@ public class OozieServiceImpl implements OozieService {
             writer.write(shell);
             return shellPath.toString();
         } catch (IOException e) {
-            log.error("创建sql文件失败", e);
+            log.error("创建shell文件失败", e);
         } finally {
             if (null != writer) {
                 try {
