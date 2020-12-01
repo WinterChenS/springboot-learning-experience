@@ -29,15 +29,6 @@ hdfs:
   hdfsPath: hdfs://bigdata-master:8020
   hdfsName: bigdata-master
 
-nameNode: hdfs://bigdata-master:8020
-resourceManager: hdfs://bigdata-master:8088
-queueName: default
-job-tracker: bigdata-master:8032
-
-jdbc:
-  url: jdbc:hive2://192.168.150.119:10000/default
-  password:
-
 oozie:
   url: http://bigdata-master:11000/oozie
   wf:
@@ -47,7 +38,12 @@ oozie:
     system:
       libpath: true
   libpath: hdfs://bigdata-master:8020/user/oozie/share/lib
-
-## $1:taskType  $2:executeType $3:callbackId
-callback:
-  url: http://172.16.120.29:8898/oozie/callback?executeType=$1\&taskType=$2\&callbackId=$3
+  callback:
+    url: http://172.16.120.29:8080/label/oozie/callback?executeType=$1\&taskType=$2\&callbackId=$3
+  jdbc:
+    url: jdbc:hive2://192.168.150.119:10000/default
+    password:
+  nameNode: hdfs://bigdata-master:8020
+  resourceManager: hdfs://bigdata-master:8088
+  queueName: default
+  job-tracker: bigdata-master:8032

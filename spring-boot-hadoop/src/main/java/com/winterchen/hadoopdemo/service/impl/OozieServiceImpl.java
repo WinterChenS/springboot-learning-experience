@@ -259,7 +259,7 @@ public class OozieServiceImpl implements OozieService {
             writer.write(wfApp);
             return wf.toString();
         } catch (IOException e) {
-            log.error("创建sql文件失败", e);
+            log.error("创建workflow文件失败", e);
         } finally {
             if (null != writer) {
                 try {
@@ -280,7 +280,7 @@ public class OozieServiceImpl implements OozieService {
             writer = new OutputStreamWriter(fileSystem.create(coord));
             String frequency = FrequencyTypeEnum.getExpressionByName(frequencyType.name(), 1);
             String wfApp =
-                    "<coordinator-app name='" + coordName + "' frequency='" + frequency + "' start='${start}' end='${end}' timezone='GMT+0800'\n" +
+                    "<coordinator-app name='" + coordName + "' frequency='" + frequency + "' start='${start}' end='${end}' timezone='Asia/Shanghai'\n" +
                             "                 xmlns='uri:oozie:coordinator:0.4'>\n" +
                             "        <action>\n" +
                             "        <workflow>\n" +
@@ -291,7 +291,7 @@ public class OozieServiceImpl implements OozieService {
             writer.write(wfApp);
             return coordName.toString();
         } catch (IOException e) {
-            log.error("创建sql文件失败", e);
+            log.error("创建coordinator文件失败", e);
         } finally {
             if (null != writer) {
                 try {

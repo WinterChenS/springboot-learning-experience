@@ -18,16 +18,16 @@ import org.springframework.stereotype.Component;
 @Component
 public class OozieConfig {
 
-    @Value("${namenode}")
+    @Value("${oozie.nameNode}")
     private String nameNode;
 
-    @Value("${job-tracker}")
+    @Value("${oozie.job-tracker}")
     private String jobTracker;
 
-    @Value("${resourcemanager}")
+    @Value("${oozie.resourceManager}")
     private String resourceManager;
 
-    @Value("${queuename}")
+    @Value("${oozie.queueName}")
     private String queueName;
 
     @Value("${oozie.url}")
@@ -42,13 +42,13 @@ public class OozieConfig {
     @Value("${oozie.use.system.libpath}")
     private boolean oozieSystemLibPath;
 
-    @Value("${jdbc.url}")
+    @Value("${oozie.jdbc.url}")
     private String jdbcUrl;
 
-    @Value("${jdbc.password}")
+    @Value("${oozie.jdbc.password}")
     private String password;
 
-    @Value("${callback.url}")
+    @Value("${oozie.callback.url}")
     private String callbackUrl;
 
 }
