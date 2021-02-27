@@ -9,12 +9,14 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-cache-redis/spring-boot-cache-redis.iml" filepath="$PROJECT_DIR$/spring-boot-cache-redis/spring-boot-cache-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-config/spring-boot-config.iml" filepath="$PROJECT_DIR$/spring-boot-config/spring-boot-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-data-jpa/spring-boot-data-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-data-jpa/spring-boot-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-dgs/spring-boot-dgs.iml" filepath="$PROJECT_DIR$/spring-boot-dgs/spring-boot-dgs.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-client/spring-boot-dubbo-client.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-client/spring-boot-dubbo-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo-service/spring-boot-dubbo-service.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo-service/spring-boot-dubbo-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-elasticsearch/spring-boot-elasticsearch.iml" filepath="$PROJECT_DIR$/spring-boot-elasticsearch/spring-boot-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-exception/spring-boot-exception.iml" filepath="$PROJECT_DIR$/spring-boot-exception/spring-boot-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-file-upload/spring-boot-file-upload.iml" filepath="$PROJECT_DIR$/spring-boot-file-upload/spring-boot-file-upload.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-hadoop/spring-boot-hadoop.iml" filepath="$PROJECT_DIR$/spring-boot-hadoop/spring-boot-hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-hadoop-sentry/spring-boot-hadoop-sentry.iml" filepath="$PROJECT_DIR$/spring-boot-hadoop-sentry/spring-boot-hadoop-sentry.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jdbctemplate/spring-boot-jdbctemplate.iml" filepath="$PROJECT_DIR$/spring-boot-jdbctemplate/spring-boot-jdbctemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-lettuce-redis/spring-boot-lettuce-redis.iml" filepath="$PROJECT_DIR$/spring-boot-lettuce-redis/spring-boot-lettuce-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mongodb/spring-boot-mongodb.iml" filepath="$PROJECT_DIR$/spring-boot-mongodb/spring-boot-mongodb.iml" />
@@ -22,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-hikaricp/spring-boot-mybatis-hikaricp.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-hikaricp/spring-boot-mybatis-hikaricp.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-mutil-database/spring-boot-mybatis-mutil-database.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-mutil-database/spring-boot-mybatis-mutil-database.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-plugin/spring-boot-mybatis-plugin.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-plugin/spring-boot-mybatis-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-neo4j/spring-boot-neo4j.iml" filepath="$PROJECT_DIR$/spring-boot-neo4j/spring-boot-neo4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rabbit-amqp/spring-boot-rabbit-amqp.iml" filepath="$PROJECT_DIR$/spring-boot-rabbit-amqp/spring-boot-rabbit-amqp.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rabbitmq/spring-boot-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-boot-rabbitmq/spring-boot-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rabbitmq-delay/spring-boot-rabbitmq-delay.iml" filepath="$PROJECT_DIR$/spring-boot-rabbitmq-delay/spring-boot-rabbitmq-delay.iml" />

@@ -1,0 +1,6 @@
+server:
+  port: 8898
+spring:
+  application:
+    name: hadoop-demo
+

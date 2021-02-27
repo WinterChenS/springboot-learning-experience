@@ -2,9 +2,19 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="3rdParty" />
+      <option name="name" value="maven-public" />
+      <option name="url" value="http://192.168.10.89:8182/repository/3rdParty/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="releases" />
       <option name="name" value="Nexus Release Repository" />
       <option name="url" value="http://192.168.150.59:8081/repository/maven-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven-snapshots" />
+      <option name="name" value="maven-snapshots" />
+      <option name="url" value="http://192.168.10.89:8182/repository/maven-snapshots/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -12,14 +22,19 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="maven-public" />
+      <option name="name" value="maven-public" />
+      <option name="url" value="http://192.168.10.89:8182/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="alimaven" />
       <option name="name" value="aliyun maven" />
       <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="snapshot" />
-      <option name="name" value="Apache Snapshot Repository" />
-      <option name="url" value="http://192.168.150.59:8081/repository/maven-snapshots/" />
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -27,9 +42,44 @@
       <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="nexus" />
+      <option name="name" value="nexus" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven-central" />
+      <option name="name" value="maven-central" />
+      <option name="url" value="http://192.168.10.89:8182/repository/maven-central/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cloudera" />
+      <option name="name" value="cloudera" />
+      <option name="url" value="https://repository.cloudera.com/artifactory/cloudera-repos/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="snapshot" />
+      <option name="name" value="Apache Snapshot Repository" />
+      <option name="url" value="http://192.168.150.59:8081/repository/maven-snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central-repos1" />
+      <option name="name" value="Central Repository 2" />
+      <option name="url" value="http://repo1.maven.org/maven2/" />
     </remote-repository>
   </component>
 </project>

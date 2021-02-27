@@ -72,6 +72,11 @@
         <module>spring-boot-elasticsearch</module>
         <!-- hadoop -->
         <module>spring-boot-hadoop</module>
+        <module>spring-boot-hadoop-sentry</module>
+
+        <module>spring-boot-neo4j</module>
+
+        <module>spring-boot-dgs</module>
     </modules>
 
 </project>

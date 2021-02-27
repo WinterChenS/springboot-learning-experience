@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -13,8 +14,10 @@
         <module name="spring-boot-data-jpa" />
         <module name="spring-boot-dubbo-service" />
         <module name="spring-boot-dubbo-client" />
+        <module name="spring-boot-hadoop-sentry" />
         <module name="spring-boot-exception" />
         <module name="spring-boot-admin" />
+        <module name="spring-boot-neo4j" />
         <module name="spring-boot-mybatis" />
         <module name="spring-boot-mongodb" />
         <module name="spring-boot-config" />
@@ -28,6 +31,7 @@
         <module name="spring-boot-rest-template" />
         <module name="spring-boot-rabbitmq" />
         <module name="springboot-rabbit" />
+        <module name="spring-boot-dgs" />
         <module name="spring-boot-thymeleaf" />
         <module name="spring-boot-lettuce-redis" />
         <module name="spring-boot-task" />
@@ -41,8 +45,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="module-auth" target="1.8" />
-      <module name="module-user" target="1.8" />
       <module name="spring-boot-actuator" target="1.8" />
       <module name="spring-boot-actuator-admin" target="1.8" />
       <module name="spring-boot-actuator-client" target="1.8" />
@@ -50,12 +52,14 @@
       <module name="spring-boot-cache-redis" target="1.8" />
       <module name="spring-boot-config" target="1.8" />
       <module name="spring-boot-data-jpa" target="1.8" />
+      <module name="spring-boot-dgs" target="9" />
       <module name="spring-boot-dubbo-client" target="1.8" />
       <module name="spring-boot-dubbo-service" target="1.8" />
       <module name="spring-boot-elasticsearch" target="1.8" />
       <module name="spring-boot-exception" target="1.8" />
       <module name="spring-boot-file-upload" target="1.8" />
       <module name="spring-boot-hadoop" target="1.8" />
+      <module name="spring-boot-hadoop-sentry" target="1.8" />
       <module name="spring-boot-jdbctemplate" target="1.8" />
       <module name="spring-boot-lettuce-redis" target="1.8" />
       <module name="spring-boot-mongodb" target="1.8" />
@@ -63,6 +67,7 @@
       <module name="spring-boot-mybatis-hikaricp" target="1.8" />
       <module name="spring-boot-mybatis-mutil-database" target="1.8" />
       <module name="spring-boot-mybatis-plugin" target="1.8" />
+      <module name="spring-boot-neo4j" target="1.8" />
       <module name="spring-boot-rabbit-amqp" target="1.8" />
       <module name="spring-boot-rabbitmq" target="1.8" />
       <module name="spring-boot-rabbitmq-delay" target="1.8" />
@@ -72,10 +77,7 @@
       <module name="spring-boot-task" target="1.8" />
       <module name="spring-boot-thymeleaf" target="1.8" />
       <module name="spring-boot-validation1" target="1.8" />
-      <module name="springboot-dubbo" target="1.8" />
-      <module name="springboot-dubbo-client" target="1.8" />
       <module name="springboot-learning-experience" target="1.5" />
-      <module name="springboot-rabbit" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -87,12 +89,14 @@
       <module name="spring-boot-cache-redis" options="-parameters" />
       <module name="spring-boot-config" options="-parameters" />
       <module name="spring-boot-data-jpa" options="-parameters" />
+      <module name="spring-boot-dgs" options="-parameters" />
       <module name="spring-boot-dubbo-client" options="-parameters" />
       <module name="spring-boot-dubbo-service" options="-parameters" />
       <module name="spring-boot-elasticsearch" options="-parameters" />
       <module name="spring-boot-exception" options="-parameters" />
       <module name="spring-boot-file-upload" options="-parameters" />
       <module name="spring-boot-hadoop" options="-parameters" />
+      <module name="spring-boot-hadoop-sentry" options="-parameters" />
       <module name="spring-boot-jdbctemplate" options="-parameters" />
       <module name="spring-boot-lettuce-redis" options="-parameters" />
       <module name="spring-boot-mongodb" options="-parameters" />
@@ -100,6 +104,7 @@
       <module name="spring-boot-mybatis-hikaricp" options="-parameters" />
       <module name="spring-boot-mybatis-mutil-database" options="-parameters" />
       <module name="spring-boot-mybatis-plugin" options="-parameters" />
+      <module name="spring-boot-neo4j" options="-parameters" />
       <module name="spring-boot-rabbit-amqp" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-boot-rabbitmq-delay" options="-parameters" />

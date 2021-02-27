@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/spring-boot-mybatis-hikaricp/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mongodb/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-hadoop-sentry/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -35,7 +36,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
