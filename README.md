@@ -3,6 +3,9 @@
 **springboot2.X系列：**
 
 *  [springboot整合mybatis 使用HikariCP连接池](https://blog.csdn.net/Winter_chen001/article/details/81204116)
+* [springboot集成hadoop实战](https://winterchen.blog.csdn.net/article/details/110449133)
+* [springboot集成hive实战](https://winterchen.blog.csdn.net/article/details/110449266)
+* [springboot集成Oozie实战](https://winterchen.blog.csdn.net/article/details/110449314)
 
 * [一起来学SpringBoot | 第一篇：构建第一个SpringBoot工程](https://blog.csdn.net/winter_chen001/article/details/80537847)
 * [一起来学SpringBoot | 第二篇：SpringBoot配置详解](https://blog.csdn.net/winter_chen001/article/details/80537874)
