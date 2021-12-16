@@ -8,40 +8,42 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-file-upload" />
+        <module name="springboot-dubbo-client" />
+        <module name="spring-boot-cache-redis" />
+        <module name="spring-boot-webservice-service" />
+        <module name="spring-boot-elasticsearch" />
+        <module name="spring-boot-rest-template" />
+        <module name="spring-boot-hadoop-sentry" />
         <module name="spring-boot-actuator" />
         <module name="spring-boot-mybatis-hikaricp" />
-        <module name="spring-boot-data-jpa" />
-        <module name="spring-boot-dubbo-service" />
-        <module name="spring-boot-dubbo-client" />
-        <module name="spring-boot-hadoop-sentry" />
-        <module name="spring-boot-exception" />
-        <module name="spring-boot-admin" />
-        <module name="spring-boot-neo4j" />
-        <module name="spring-boot-mybatis" />
-        <module name="spring-boot-mongodb" />
-        <module name="spring-boot-config" />
-        <module name="spring-boot-mybatis-mutil-database" />
-        <module name="spring-boot-actuator-client" />
-        <module name="spring-boot-rabbitmq-delay" />
-        <module name="spring-boot-start" />
-        <module name="spring-boot-mybatis-plugin" />
-        <module name="spring-boot-swagger" />
-        <module name="spring-boot-rabbit-amqp" />
-        <module name="spring-boot-rest-template" />
-        <module name="spring-boot-rabbitmq" />
-        <module name="springboot-rabbit" />
-        <module name="spring-boot-dgs" />
-        <module name="spring-boot-thymeleaf" />
-        <module name="spring-boot-lettuce-redis" />
         <module name="spring-boot-task" />
-        <module name="spring-boot-elasticsearch" />
-        <module name="spring-boot-cache-redis" />
+        <module name="spring-boot-webservice-client" />
+        <module name="springboot-rabbit" />
+        <module name="spring-boot-dubbo-service" />
+        <module name="spring-boot-start" />
         <module name="spring-boot-jdbctemplate" />
-        <module name="springboot-dubbo-client" />
-        <module name="spring-boot-hadoop" />
+        <module name="spring-boot-rabbit-amqp" />
+        <module name="spring-boot-admin" />
+        <module name="spring-boot-config" />
+        <module name="spring-boot-exception" />
         <module name="spring-boot-actuator-admin" />
+        <module name="spring-boot-dgs" />
+        <module name="spring-boot-mybatis" />
+        <module name="spring-boot-lettuce-redis" />
+        <module name="spring-boot-file-upload" />
+        <module name="spring-boot-swagger" />
+        <module name="spring-boot-thymeleaf" />
+        <module name="spring-boot-rabbitmq-delay" />
+        <module name="spring-boot-dubbo-client" />
+        <module name="spring-boot-mybatis-mutil-database" />
+        <module name="spring-boot-rabbitmq" />
         <module name="spring-boot-validation1" />
+        <module name="spring-boot-mybatis-plugin" />
+        <module name="spring-boot-actuator-client" />
+        <module name="spring-boot-data-jpa" />
+        <module name="spring-boot-hadoop" />
+        <module name="spring-boot-mongodb" />
+        <module name="spring-boot-neo4j" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -77,6 +79,8 @@
       <module name="spring-boot-task" target="1.8" />
       <module name="spring-boot-thymeleaf" target="1.8" />
       <module name="spring-boot-validation1" target="1.8" />
+      <module name="spring-boot-webservice-client" target="1.8" />
+      <module name="spring-boot-webservice-service" target="1.8" />
       <module name="springboot-learning-experience" target="1.5" />
     </bytecodeTargetLevel>
   </component>
@@ -114,6 +118,8 @@
       <module name="spring-boot-task" options="-parameters" />
       <module name="spring-boot-thymeleaf" options="-parameters" />
       <module name="spring-boot-validation1" options="-parameters" />
+      <module name="spring-boot-webservice-client" options="-parameters" />
+      <module name="spring-boot-webservice-service" options="-parameters" />
     </option>
   </component>
 </project>

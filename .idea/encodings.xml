@@ -59,5 +59,7 @@
     <file url="file://$PROJECT_DIR$/spring-boot-thymeleaf/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-validation1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-validation1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-webservice-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-webservice-service/src/main/java" charset="UTF-8" />
   </component>
 </project>
