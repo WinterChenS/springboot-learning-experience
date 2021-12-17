@@ -1,8 +1,8 @@
 package com.winterchen.webservice.client.rest;
 
 import com.winterchen.webservice.client.utils.WebServiceUtil;
-import com.winterchen.webservice.client.webservice.AuthorDto;
-import com.winterchen.webservice.client.webservice.AuthorPortType;
+import com.winterchen.webservice.client.webservice.author.AuthorDto;
+import com.winterchen.webservice.client.webservice.author.AuthorPortType;
 import org.apache.cxf.endpoint.Client;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

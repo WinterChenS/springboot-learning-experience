@@ -22,71 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1d6361-a0be-43ba-9ca6-1ded70710311" name="Default" comment="优化">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_core_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_soap_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_xml_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_databinding_jaxb_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxws_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_simple_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_addr_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_policy_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_wsdl_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_spring_boot_autoconfigure_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_spring_boot_starter_jaxws_3_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_neethi_neethi_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/SpringBootWebserviceClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/config/CxfClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/constants/WsConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/rest/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/utils/WebServiceUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/webservice/AuthorDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/webservice/AuthorPortType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/webservice/AuthorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/webservice/GetAuthorByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/webservice/GetAuthorByNameResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/webservice/GetAuthorList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/webservice/GetAuthorListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/webservice/GetAuthorString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/webservice/GetAuthorStringResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/webservice/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/webservice/Sex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/webservice/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-client/src/main/resources/wsdl/author.wsdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/src/main/java/com/winterchen/webservice/service/SpringBootWebserviceServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/src/main/java/com/winterchen/webservice/service/config/CxfWebServiceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/src/main/java/com/winterchen/webservice/service/constants/WsConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/src/main/java/com/winterchen/webservice/service/dto/AuthorDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/src/main/java/com/winterchen/webservice/service/enums/Sex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/src/main/java/com/winterchen/webservice/service/service/AuthorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/src/main/java/com/winterchen/webservice/service/service/impl/AuthorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-webservice-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="bc1d6361-a0be-43ba-9ca6-1ded70710311" name="Default" comment="feat： 新增webservice集成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +75,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/winterchen/webservice/client/webservice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../work/project/ai-app/spring-boot-webservice-service" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -746,7 +682,7 @@
       <workItem from="1611644947298" duration="476000" />
       <workItem from="1611645513941" duration="13454000" />
       <workItem from="1614404448714" duration="1630000" />
-      <workItem from="1639619014295" duration="11843000" />
+      <workItem from="1639619014295" duration="14421000" />
     </task>
     <task id="LOCAL-00001" summary="添加springboot-actuator和springboot admin">
       <created>1527756716437</created>
@@ -951,7 +887,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606357734862</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="feat： 新增webservice集成">
+      <created>1639639762020</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1639639762020</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1012,7 +955,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="添加springboot-actuator和springboot admin" />
     <MESSAGE value="我的第一个springboot程序" />
     <MESSAGE value="第二篇：SpringBoot配置详解" />
     <MESSAGE value="第四篇：整合Thymeleaf模板" />
@@ -1037,7 +979,8 @@
     <MESSAGE value="add mongodb transaction" />
     <MESSAGE value="新增oozie组件的workflow任务以及coordinator定时调度任务api集成" />
     <MESSAGE value="优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化" />
+    <MESSAGE value="feat： 新增webservice集成" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat： 新增webservice集成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

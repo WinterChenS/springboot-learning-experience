@@ -9,5 +9,6 @@ package com.winterchen.webservice.service.constants;
 public class WsConst {
 
     public static final String NAMESPACE_URI = "http://www.winterchen.com/webservice";
+    public static final String NAMESPACE_URI_USER = "http://user.winterchen.com/webservice";
 
 }

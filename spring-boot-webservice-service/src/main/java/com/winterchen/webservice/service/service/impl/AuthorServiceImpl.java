@@ -4,6 +4,7 @@ import com.winterchen.webservice.service.constants.WsConst;
 import com.winterchen.webservice.service.dto.AuthorDto;
 import com.winterchen.webservice.service.enums.Sex;
 import com.winterchen.webservice.service.service.AuthorService;
+import org.springframework.stereotype.Service;
 
 import javax.jws.WebService;
 import java.util.ArrayList;
@@ -17,6 +18,7 @@ import java.util.List;
  * @date 2021/12/16 10:19
  * @description TODO
  **/
+@Service
 @WebService(
         targetNamespace = WsConst.NAMESPACE_URI, //wsdl命名空间
         name = "authorPortType",                 //portType名称 客户端生成代码时 为接口名称

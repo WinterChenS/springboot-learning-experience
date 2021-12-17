@@ -1,8 +1,9 @@
 package com.winterchen.webservice.client.config;
 
 import com.winterchen.webservice.client.constants.WsConst;
-import com.winterchen.webservice.client.webservice.AuthorPortType;
-import com.winterchen.webservice.client.webservice.AuthorService;
+import com.winterchen.webservice.client.webservice.author.AuthorPortType;
+import com.winterchen.webservice.client.webservice.author.AuthorService;
+import com.winterchen.webservice.client.webservice.user.UserInfoType;
 import org.apache.cxf.endpoint.Client;
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
 import org.apache.cxf.jaxws.endpoint.dynamic.JaxWsDynamicClientFactory;
@@ -26,9 +27,18 @@ public class CxfClientConfig {
     public AuthorPortType createAuthorPortTypeProxy() {
         JaxWsProxyFactoryBean jaxWsProxyFactoryBean = new JaxWsProxyFactoryBean();
         jaxWsProxyFactoryBean.setServiceClass(AuthorPortType.class);
-        jaxWsProxyFactoryBean.setAddress(WsConst.SERVICE_ADDRESS);//服务地址：http://127.0.0.1:8080/ws/autho
+        jaxWsProxyFactoryBean.setAddress(WsConst.SERVICE_ADDRESS);//服务地址：http://127.0.0.1:8080/ws/author
 
         return (AuthorPortType) jaxWsProxyFactoryBean.create();
+    }
+
+    @Bean("userInfoType")
+    public UserInfoType createUserInfoTypeProxy() {
+        JaxWsProxyFactoryBean jaxWsProxyFactoryBean = new JaxWsProxyFactoryBean();
+        jaxWsProxyFactoryBean.setServiceClass(UserInfoType.class);
+        jaxWsProxyFactoryBean.setAddress(WsConst.SERVICE_ADDRESS_USER);//服务地址：http://127.0.0.1:8080/ws/user
+
+        return (UserInfoType) jaxWsProxyFactoryBean.create();
     }
 
     /*

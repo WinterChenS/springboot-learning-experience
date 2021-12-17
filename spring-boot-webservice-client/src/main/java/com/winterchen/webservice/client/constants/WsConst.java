@@ -8,5 +8,8 @@ package com.winterchen.webservice.client.constants;
  **/
 public class WsConst {
     public static final String NAMESPACE_URI = "http://www.winterchen.com/webservice";
-    public static final String SERVICE_ADDRESS= "http://127.0.0.1:8080/ws/author?wsdl";
+    public static final String SERVICE_ADDRESS= "http://127.0.0.1:8082/ws/author?wsdl";
+    public static final String NAMESPACE_URI_USER = "http://user.winterchen.com/webservice";
+    public static final String SERVICE_ADDRESS_USER= "http://127.0.0.1:8082/ws/user?wsdl";
+
 }

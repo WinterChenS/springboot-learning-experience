@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://user.winterchen.com/webservice" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="userInfoService" targetNamespace="http://user.winterchen.com/webservice">
+    <wsdl:types>
+        <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://user.winterchen.com/webservice" elementFormDefault="unqualified" targetNamespace="http://user.winterchen.com/webservice" version="1.0">
+            <xs:element name="findUserById" type="tns:findUserById"/>
+            <xs:element name="findUserByIdResponse" type="tns:findUserByIdResponse"/>
+            <xs:element name="pageUserInfo" type="tns:pageUserInfo"/>
+            <xs:element name="pageUserInfoResponse" type="tns:pageUserInfoResponse"/>
+            <xs:complexType name="findUserById">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="arg0" type="xs:long"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="findUserByIdResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="return" type="tns:userInfoDTO"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="userInfoDTO">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="address" type="xs:string"/>
+                    <xs:element minOccurs="0" name="age" type="xs:int"/>
+                    <xs:element minOccurs="0" name="id" type="xs:long"/>
+                    <xs:element minOccurs="0" name="name" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="pageUserInfo">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="arg0" type="tns:basePage"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="basePage">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="pageNum" type="xs:int"/>
+                    <xs:element minOccurs="0" name="pageSize" type="xs:int"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="pageUserInfoResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="return" type="tns:commonPage"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:complexType name="commonPage">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="limit" type="xs:int"/>
+                    <xs:element maxOccurs="unbounded" minOccurs="0" name="list" nillable="true" type="xs:anyType"/>
+                    <xs:element minOccurs="0" name="offset" type="xs:int"/>
+                    <xs:element minOccurs="0" name="pageNum" type="xs:int"/>
+                    <xs:element minOccurs="0" name="pageSize" type="xs:int"/>
+                    <xs:element minOccurs="0" name="total" type="xs:long"/>
+                    <xs:element minOccurs="0" name="totalPage" type="xs:long"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="pageUserInfoResponse">
+        <wsdl:part element="tns:pageUserInfoResponse" name="parameters"> </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="findUserByIdResponse">
+        <wsdl:part element="tns:findUserByIdResponse" name="parameters"> </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="pageUserInfo">
+        <wsdl:part element="tns:pageUserInfo" name="parameters"> </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="findUserById">
+        <wsdl:part element="tns:findUserById" name="parameters"> </wsdl:part>
+    </wsdl:message>
+    <wsdl:portType name="userInfoType">
+        <wsdl:operation name="findUserById">
+            <wsdl:input message="tns:findUserById" name="findUserById"> </wsdl:input>
+            <wsdl:output message="tns:findUserByIdResponse" name="findUserByIdResponse"> </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="pageUserInfo">
+            <wsdl:input message="tns:pageUserInfo" name="pageUserInfo"> </wsdl:input>
+            <wsdl:output message="tns:pageUserInfoResponse" name="pageUserInfoResponse"> </wsdl:output>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="userInfoServiceSoapBinding" type="tns:userInfoType">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="findUserById">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="findUserById">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="findUserByIdResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="pageUserInfo">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input name="pageUserInfo">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="pageUserInfoResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="userInfoService">
+        <wsdl:port binding="tns:userInfoServiceSoapBinding" name="userInfoName">
+            <soap:address location="http://127.0.0.1:8082/ws/user"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>
