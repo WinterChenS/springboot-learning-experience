@@ -6,7 +6,7 @@ import org.apache.cxf.transport.http.HTTPConduit;
 import org.apache.cxf.transports.http.configuration.HTTPClientPolicy;
 
 /**
- * @author CENTURY
+ * @author winterchen.com
  * @version 1.0
  * @date 2021/12/16 14:20
  * @description 动态

@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author CENTURY
+ * @author winterchen.com
  * @version 1.0
  * @date 2021/12/22 16:03
  * @description TODO

@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 /**
- * @author CENTURY
+ * @author winterchen.com
  * @version 1.0
  * @date 2021/12/16 10:15
  * @description TODO

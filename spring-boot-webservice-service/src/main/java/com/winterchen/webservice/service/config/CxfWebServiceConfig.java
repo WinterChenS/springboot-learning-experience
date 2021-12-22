@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.xml.ws.Endpoint;
 
 /**
- * @author CENTURY
+ * @author winterchen.com
  * @version 1.0
  * @date 2021/12/16 10:24
  * @description TODO

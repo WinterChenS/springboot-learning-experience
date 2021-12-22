@@ -1,7 +1,7 @@
 package com.winterchen.webservice.service.constants;
 
 /**
- * @author CENTURY
+ * @author winterchen.com
  * @version 1.0
  * @date 2021/12/16 10:18
  * @description TODO
