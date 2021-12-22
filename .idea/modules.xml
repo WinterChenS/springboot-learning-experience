@@ -28,6 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rabbit-amqp/spring-boot-rabbit-amqp.iml" filepath="$PROJECT_DIR$/spring-boot-rabbit-amqp/spring-boot-rabbit-amqp.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rabbitmq/spring-boot-rabbitmq.iml" filepath="$PROJECT_DIR$/spring-boot-rabbitmq/spring-boot-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rabbitmq-delay/spring-boot-rabbitmq-delay.iml" filepath="$PROJECT_DIR$/spring-boot-rabbitmq-delay/spring-boot-rabbitmq-delay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-redisjson/spring-boot-redisjson.iml" filepath="$PROJECT_DIR$/spring-boot-redisjson/spring-boot-redisjson.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rest-template/spring-boot-rest-template.iml" filepath="$PROJECT_DIR$/spring-boot-rest-template/spring-boot-rest-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" filepath="$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-swagger/spring-boot-swagger.iml" filepath="$PROJECT_DIR$/spring-boot-swagger/spring-boot-swagger.iml" />

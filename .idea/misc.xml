@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/spring-boot-hadoop-sentry/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-webservice-service/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-webservice-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-redisjson/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

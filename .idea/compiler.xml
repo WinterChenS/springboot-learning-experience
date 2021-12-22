@@ -42,6 +42,7 @@
         <module name="spring-boot-actuator-client" />
         <module name="spring-boot-data-jpa" />
         <module name="spring-boot-hadoop" />
+        <module name="spring-boot-redisjson" />
         <module name="spring-boot-mongodb" />
         <module name="spring-boot-neo4j" />
       </profile>
@@ -73,6 +74,7 @@
       <module name="spring-boot-rabbit-amqp" target="1.8" />
       <module name="spring-boot-rabbitmq" target="1.8" />
       <module name="spring-boot-rabbitmq-delay" target="1.8" />
+      <module name="spring-boot-redisjson" target="1.8" />
       <module name="spring-boot-rest-template" target="1.8" />
       <module name="spring-boot-start" target="1.8" />
       <module name="spring-boot-swagger" target="1.8" />
@@ -112,6 +114,7 @@
       <module name="spring-boot-rabbit-amqp" options="-parameters" />
       <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="spring-boot-rabbitmq-delay" options="-parameters" />
+      <module name="spring-boot-redisjson" options="-parameters" />
       <module name="spring-boot-rest-template" options="-parameters" />
       <module name="spring-boot-start" options="-parameters" />
       <module name="spring-boot-swagger" options="-parameters" />

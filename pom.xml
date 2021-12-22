@@ -77,6 +77,12 @@
         <module>spring-boot-neo4j</module>
 
         <module>spring-boot-dgs</module>
+
+        <module>spring-boot-redisjson</module>
+
+        <module>spring-boot-webservice-service</module>
+
+        <module>spring-boot-webservice-client</module>
     </modules>
 
 </project>

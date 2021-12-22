@@ -1,0 +1,6 @@
+server:
+  port: 8001
+
+jrejson:
+  host: localhost
+  port: 6389
