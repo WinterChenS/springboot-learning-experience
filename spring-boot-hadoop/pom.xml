@@ -16,7 +16,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <hadoop.version>3.3.0</hadoop.version>
+        <hadoop.version>3.3.3</hadoop.version>
 <!--        <swagger.version>3.0.0</swagger.version>-->
         <knife4j.version>3.0.1</knife4j.version>
     </properties>
